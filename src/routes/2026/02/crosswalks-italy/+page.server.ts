@@ -1,15 +1,13 @@
 // +page.server.ts
-// Reads the exported data file at request/build time.
-// In production the content pipeline (R/Python notebooks) writes JSON to /data/.
-// This loader passes it to the page as typed props.
+// Imports the story dataset at BUILD TIME via Vite (no runtime fs access).
+// This works on Vercel and all serverless platforms.
+//
+// Content pipeline: re-run notebooks/crosswalks_pipeline.py to regenerate
+// data/crosswalks-italy.json, then redeploy.
 
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import storyData from '$data/crosswalks-italy.json';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = () => {
-	// Resolve from the project root (process.cwd() in Node)
-	const raw = readFileSync(resolve('data/crosswalks-italy.json'), 'utf-8');
-	const storyData = JSON.parse(raw);
 	return { storyData };
 };

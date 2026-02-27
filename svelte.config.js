@@ -17,7 +17,11 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			// import myData from '$data/my-story.json'
+			$data: 'data'
+		}
 	}
 };
 
