@@ -13,6 +13,7 @@
 <script lang="ts">
 	import Scrolly from '$lib/scrolly/Scrolly.svelte';
 	import ScrollyStep from '$lib/scrolly/ScrollyStep.svelte';
+	import CityDotPlot from '$lib/components/CityDotPlot.svelte';
 	import type { PageData } from './$types';
 
 	const { data }: { data: PageData } = $props();
@@ -57,17 +58,6 @@
 		}
 	]);
 
-	// Graphic state: what to display based on active step
-	const graphicConfig = [
-		{ bg: '#f0ede8', number: '107',     unit: 'cities',    sub: 'analyzed' },
-		{ bg: '#e8ede0', number: '284 193', unit: 'crossings', sub: 'mapped' },
-		{ bg: '#e0e8f0', number: '58.4',    unit: 'vs 7.3',    sub: 'best vs worst score' },
-		{ bg: '#f0e8e0', number: '21.1',    unit: 'Roma',      sub: 'below national avg 26.6' },
-		{ bg: '#e8e0f0', number: '26.6',    unit: 'avg',       sub: 'crossings / 10 000 people' }
-	];
-
-	let gfx = $derived(graphicConfig[activeStep] ?? graphicConfig[0]);
-
 	function onStepEnter(index: number) {
 		activeStep = index;
 	}
@@ -101,19 +91,21 @@
 <section class="scrolly-section" aria-label="Scrollytelling: Crosswalks story">
 	<Scrolly bind:activeStep>
 		{#snippet graphic()}
-			<!-- Sticky graphic: a large number + label that animates per step -->
-			<div class="graphic-inner" style:background={gfx.bg}>
-				<span class="graphic-step-label">
-					Step {activeStep + 1} / {steps.length}
-				</span>
-				<p class="graphic-number">{gfx.number}</p>
-				<p class="graphic-unit">{gfx.unit}</p>
-				<p class="graphic-sub">{gfx.sub}</p>
+			<div class="graphic-inner">
+				<!-- Step counter -->
+				<p class="graphic-step-label">Step {activeStep + 1} / {steps.length}</p>
+
+				<!-- The actual chart -->
+				<CityDotPlot
+					cities={data.storyData.cities}
+					nationalAvg={data.storyData.summary.national_average}
+					{activeStep}
+				/>
 
 				<!-- Progress dots -->
 				<div class="graphic-dots" aria-hidden="true">
 					{#each steps as _, i}
-						<span class="dot" class:active={activeStep === i}></span>
+						<span class="progress-dot" class:active={activeStep === i}></span>
 					{/each}
 				</div>
 			</div>
@@ -132,14 +124,19 @@
 
 <!-- ── Post-scrolly body ── -->
 <section class="story-body container prose">
-	<h2>What comes next</h2>
+	<h2>What the data shows</h2>
 	<p>
-		This skeleton will grow into a full visual essay with a city-level dot plot, an interactive
-		table, and a map layer. The data is real; the charts are coming.
+		The gap between Italy's best and worst-served cities is stark. Bolzano, with its strong
+		tradition of urban planning inherited from Central European influences, offers nearly
+		eight times as many crossings per capita as Crotone in Calabria.
 	</p>
 	<p>
-		Raw data exported from R notebooks lives in <code>data/example.json</code>. Source:
-		{data.storyData.meta.source}.
+		This isn't just about north versus south. Roma and Napoli — Italy's two largest cities —
+		both fall below the national average, suggesting that size and historical density
+		create their own infrastructure challenges.
+	</p>
+	<p class="source-note">
+		Data source: {data.storyData.meta.source} · Last updated: {data.storyData.meta.updated}
 	</p>
 </section>
 
@@ -189,52 +186,26 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border-radius: 4px;
-		transition: background 600ms ease;
-		position: relative;
-		padding: 2rem;
-		text-align: center;
+		padding: 1.5rem 1rem 0.5rem;
+		gap: 0.75rem;
 	}
 
 	.graphic-step-label {
-		position: absolute;
-		top: 1.25rem;
-		left: 1.5rem;
 		font-size: var(--size-xs);
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: var(--color-muted);
-	}
-
-	.graphic-number {
-		font-size: clamp(3rem, 8vw, 6rem);
-		line-height: 1;
-		letter-spacing: -0.03em;
-		margin-bottom: 0.3em;
-		transition: all 400ms ease;
-	}
-
-	.graphic-unit {
-		font-size: var(--size-lg);
-		color: var(--color-muted);
-		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		margin-bottom: 0.5rem;
-	}
-
-	.graphic-sub {
-		font-size: var(--size-sm);
-		color: var(--color-muted);
+		align-self: flex-start;
 	}
 
 	/* Progress dots */
 	.graphic-dots {
 		display: flex;
 		gap: 0.5rem;
-		margin-top: 2rem;
+		margin-top: 0.5rem;
 	}
 
-	.dot {
+	.progress-dot {
 		width: 7px;
 		height: 7px;
 		border-radius: 50%;
@@ -242,7 +213,7 @@
 		transition: background var(--transition);
 	}
 
-	.dot.active {
+	.progress-dot.active {
 		background: var(--color-accent);
 	}
 
@@ -278,12 +249,13 @@
 		margin-bottom: 1.25rem;
 	}
 
-	.story-body code {
-		font-family: var(--font-mono);
-		font-size: 0.85em;
-		background: var(--color-border);
-		padding: 0.1em 0.35em;
-		border-radius: 2px;
+	.source-note {
+		font-size: var(--size-xs);
+		color: var(--color-muted);
+		letter-spacing: 0.03em;
+		margin-top: 2rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--color-border);
 	}
 
 	/* ── Mobile adjustments ── */
@@ -294,10 +266,6 @@
 
 		.story-dek {
 			font-size: var(--size-base);
-		}
-
-		.graphic-number {
-			font-size: 3rem;
 		}
 	}
 </style>

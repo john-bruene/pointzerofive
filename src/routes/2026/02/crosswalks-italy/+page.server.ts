@@ -9,7 +9,7 @@ import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = () => {
 	// Resolve from the project root (process.cwd() in Node)
-	const raw = readFileSync(resolve('data/example.json'), 'utf-8');
+	const raw = readFileSync(resolve('data/crosswalks-italy.json'), 'utf-8');
 	const storyData = JSON.parse(raw);
 	return { storyData };
 };
