@@ -1,14 +1,5 @@
 <script lang="ts">
 	import { stories } from '$lib/stories';
-
-	// Mouse-parallax for the slogan
-	let mx = $state(0);
-	let my = $state(0);
-
-	function trackMouse(e: MouseEvent) {
-		mx = (e.clientX / window.innerWidth  - 0.5) * 18;
-		my = (e.clientY / window.innerHeight - 0.5) *  9;
-	}
 </script>
 
 <svelte:head>
@@ -19,22 +10,6 @@
 	/>
 </svelte:head>
 
-<svelte:window onmousemove={trackMouse} />
-
-<!-- ── Compact hero ── -->
-<section class="hero container">
-	<div class="hero-inner">
-		<h1
-			class="hero-slogan"
-			style="transform: translate({mx}px, {my}px)"
-		>
-			<em>Pauca sed matura.</em>
-		</h1>
-		<span class="hero-count">{stories.length} {stories.length === 1 ? 'story' : 'stories'}</span>
-	</div>
-</section>
-
-<!-- ── Story grid ── -->
 <section class="grid-section container">
 	<div class="story-grid">
 		{#each stories as story, i}
@@ -73,53 +48,8 @@
 </section>
 
 <style>
-	/* ── Hero ── */
-	.hero {
-		padding-top: 3.5rem;
-		padding-bottom: 2rem;
-	}
-
-	.hero-inner {
-		display: flex;
-		align-items: flex-end;
-		justify-content: space-between;
-		gap: 1rem;
-		border-bottom: 1px solid var(--shell-border);
-		padding-bottom: 1.25rem;
-	}
-
-	.hero-slogan {
-		font-family: var(--font-display);
-		font-style: italic;
-		font-size: clamp(2rem, 4.5vw, 3.75rem);
-		line-height: 1.05;
-		letter-spacing: -0.02em;
-		color: var(--shell-text);
-		/* smooth parallax */
-		transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-		will-change: transform;
-		/* entrance */
-		animation: fadeUp 0.6s ease backwards;
-	}
-
-	.hero-slogan em {
-		font-style: italic; /* already italic via font-family, just reinforcing */
-	}
-
-	.hero-count {
-		font-family: var(--font-ui);
-		font-size: var(--size-xs);
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--shell-muted);
-		white-space: nowrap;
-		padding-bottom: 0.2rem; /* baseline-align with slogan */
-		animation: fadeIn 0.8s ease backwards;
-		animation-delay: 0.3s;
-	}
-
-	/* ── Grid ── */
 	.grid-section {
+		padding-top: 2.5rem;
 		padding-bottom: var(--space-xl);
 	}
 
@@ -130,13 +60,12 @@
 		background: var(--shell-border);
 	}
 
-	/* ── Card ── */
 	.card {
 		background: var(--shell-bg-card);
 		overflow: hidden;
 		position: relative;
 		animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
-		animation-delay: calc(var(--i, 0) * 130ms + 400ms);
+		animation-delay: calc(var(--i, 0) * 130ms + 200ms);
 		transition:
 			transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
 			box-shadow 0.25s ease;
@@ -160,7 +89,6 @@
 		color: var(--shell-accent);
 	}
 
-	/* ── Card preview ── */
 	.card-preview {
 		position: relative;
 		aspect-ratio: 4 / 3;
@@ -172,7 +100,7 @@
 		content: '';
 		position: absolute;
 		inset: 0;
-		background-image: radial-gradient(circle, rgba(255, 255, 255, 0.13) 1px, transparent 1px);
+		background-image: radial-gradient(circle, rgba(255,255,255,0.13) 1px, transparent 1px);
 		background-size: 18px 18px;
 		z-index: 1;
 		pointer-events: none;
@@ -181,11 +109,9 @@
 	.card-preview::after {
 		content: '';
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		bottom: 0; left: 0; right: 0;
 		height: 55%;
-		background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+		background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%);
 		z-index: 1;
 		pointer-events: none;
 	}
@@ -194,9 +120,7 @@
 		filter: brightness(1.1) saturate(1.08);
 	}
 
-	.card-preview--empty {
-		background: var(--shell-border) !important;
-	}
+	.card-preview--empty { background: var(--shell-border) !important; }
 
 	.card-category {
 		position: absolute;
@@ -207,13 +131,12 @@
 		font-weight: 600;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: rgba(255, 255, 255, 0.85);
+		color: rgba(255,255,255,0.85);
 		padding: 0.2em 0.55em;
 		border-radius: 2px;
 		z-index: 2;
 	}
 
-	/* ── Card body ── */
 	.card-body {
 		padding: 1.25rem 1.25rem 1.5rem;
 		flex: 1;
@@ -233,10 +156,7 @@
 		color: var(--shell-muted);
 	}
 
-	.card-number {
-		font-weight: 700;
-		color: var(--shell-accent);
-	}
+	.card-number { font-weight: 700; color: var(--shell-accent); }
 
 	.card-title {
 		font-family: var(--font-display);
@@ -259,11 +179,7 @@
 		overflow: hidden;
 	}
 
-	/* ── Placeholder ── */
-	.card--placeholder {
-		opacity: 0.3;
-		pointer-events: none;
-	}
+	.card--placeholder { opacity: 0.3; pointer-events: none; }
 
 	.placeholder-label {
 		font-family: var(--font-ui);
@@ -273,14 +189,12 @@
 		text-transform: uppercase;
 	}
 
-	/* ── Responsive ── */
 	@media (max-width: 900px) {
 		.story-grid { grid-template-columns: repeat(2, 1fr); }
 	}
 
 	@media (max-width: 580px) {
-		.hero { padding-top: 2.5rem; }
-		.hero-slogan { font-size: clamp(1.75rem, 9vw, 2.5rem); }
+		.grid-section { padding-top: 1.5rem; }
 		.story-grid { grid-template-columns: 1fr; }
 	}
 </style>
