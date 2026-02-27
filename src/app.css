@@ -137,6 +137,34 @@ p + p {
 	margin-inline: auto;
 }
 
+/* ---------- Keyframe animations ---------- */
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(28px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+	from {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 /* ---------- Visually hidden (a11y) ---------- */
 .sr-only {
 	position: absolute;

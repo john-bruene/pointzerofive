@@ -12,16 +12,28 @@
 
 <!-- ── Masthead ── -->
 <section class="masthead container">
-	<p class="masthead-sub">A data publication that will make you look twice at numbers.</p>
+	<p class="masthead-eyebrow">Visual data journalism</p>
+	<h1 class="masthead-headline">
+		Stories that<br /><em>make you look</em><br />twice.
+	</h1>
+	<div class="masthead-rule"></div>
+	<p class="masthead-sub">
+		One dataset. One question. Built from scratch, every time.
+	</p>
 </section>
 
 <!-- ── Story grid ── -->
 <section class="grid-section container">
+	<div class="grid-header">
+		<h2 class="grid-label">Latest stories</h2>
+		<span class="grid-count">{stories.length} published</span>
+	</div>
+
 	<div class="story-grid">
-		{#each stories as story}
-			<article class="card">
+		{#each stories as story, i}
+			<article class="card" style="--i:{i}">
 				<a href={story.slug} class="card-link">
-					<!-- Preview area (placeholder colour until real thumbnail) -->
+					<!-- Preview area -->
 					<div class="card-preview" style:background={story.color}>
 						<span class="card-category">{story.category}</span>
 					</div>
@@ -41,8 +53,12 @@
 
 		<!-- Placeholder cards so the grid always looks full even with 1–2 stories -->
 		{#if stories.length < 3}
-			{#each Array(3 - stories.length) as _}
-				<article class="card card--placeholder" aria-hidden="true">
+			{#each Array(3 - stories.length) as _, j}
+				<article
+					class="card card--placeholder"
+					aria-hidden="true"
+					style="--i:{stories.length + j}"
+				>
 					<div class="card-preview card-preview--empty"></div>
 					<div class="card-body">
 						<p class="placeholder-label">Coming soon</p>
@@ -56,16 +72,56 @@
 <style>
 	/* ── Masthead ── */
 	.masthead {
-		padding-top: 5rem;
-		padding-bottom: 3.5rem;
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+	}
+
+	.masthead-eyebrow {
+		font-family: var(--font-ui);
+		font-size: var(--size-xs);
+		color: var(--shell-accent);
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 1.5rem;
+		animation: slideInLeft 0.6s ease backwards;
+	}
+
+	.masthead-headline {
+		font-family: var(--font-display);
+		font-size: clamp(3.5rem, 7.5vw, 7rem);
+		line-height: 1.0;
+		letter-spacing: -0.03em;
+		color: var(--shell-text);
+		max-width: 14ch;
+		margin-bottom: 2rem;
+		animation: fadeUp 0.7s ease backwards;
+		animation-delay: 0.1s;
+	}
+
+	.masthead-headline em {
+		color: var(--shell-muted);
+		font-style: italic;
+	}
+
+	.masthead-rule {
+		width: 3.5rem;
+		height: 3px;
+		background: var(--shell-accent);
+		margin-bottom: 1.5rem;
+		animation: fadeIn 0.8s ease backwards;
+		animation-delay: 0.35s;
 	}
 
 	.masthead-sub {
 		font-family: var(--font-ui);
 		font-size: var(--size-sm);
 		color: var(--shell-muted);
-		letter-spacing: 0.03em;
-		max-width: 52ch;
+		letter-spacing: 0.02em;
+		max-width: 44ch;
+		line-height: 1.7;
+		animation: fadeUp 0.6s ease backwards;
+		animation-delay: 0.45s;
 	}
 
 	/* ── Grid section ── */
@@ -73,18 +129,58 @@
 		padding-bottom: var(--space-xl);
 	}
 
+	.grid-header {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		margin-bottom: 1.25rem;
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--shell-border);
+	}
+
+	.grid-label {
+		font-family: var(--font-ui);
+		font-size: var(--size-xs);
+		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--shell-text);
+	}
+
+	.grid-count {
+		font-family: var(--font-ui);
+		font-size: var(--size-xs);
+		color: var(--shell-muted);
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
 	/* ── 3-column responsive grid ── */
 	.story-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5px; /* tight seam like The Pudding */
-		background: var(--shell-border); /* border colour fills the gaps */
+		gap: 1.5px;
+		background: var(--shell-border);
 	}
 
 	/* ── Card ── */
 	.card {
 		background: var(--shell-bg-card);
 		overflow: hidden;
+		position: relative;
+		/* Staggered entrance */
+		animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+		animation-delay: calc(var(--i, 0) * 130ms + 500ms);
+		/* Lift on hover */
+		transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+			box-shadow 0.25s ease,
+			z-index 0s;
+	}
+
+	.card:not(.card--placeholder):hover {
+		transform: translateY(-8px) scale(1.005);
+		box-shadow: 0 28px 72px rgba(0, 0, 0, 0.55);
+		z-index: 2;
 	}
 
 	.card-link {
@@ -93,11 +189,6 @@
 		height: 100%;
 		text-decoration: none;
 		color: var(--shell-text);
-	}
-
-	/* Lift card on hover */
-	.card-link:hover .card-preview {
-		filter: brightness(1.12);
 	}
 
 	.card-link:hover .card-title {
@@ -112,8 +203,36 @@
 		transition: filter 300ms ease;
 	}
 
+	/* Dot-grid texture overlay */
+	.card-preview::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background-image: radial-gradient(circle, rgba(255, 255, 255, 0.13) 1px, transparent 1px);
+		background-size: 18px 18px;
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	/* Bottom vignette so category tag is readable */
+	.card-preview::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 55%;
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.card:not(.card--placeholder):hover .card-preview {
+		filter: brightness(1.1) saturate(1.08);
+	}
+
 	.card-preview--empty {
-		background: var(--shell-border);
+		background: var(--shell-border) !important;
 	}
 
 	.card-category {
@@ -125,11 +244,10 @@
 		font-weight: 600;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: rgba(255, 255, 255, 0.7);
-		background: rgba(0, 0, 0, 0.35);
-		padding: 0.2em 0.5em;
+		color: rgba(255, 255, 255, 0.85);
+		padding: 0.2em 0.55em;
 		border-radius: 2px;
-		backdrop-filter: blur(4px);
+		z-index: 2;
 	}
 
 	/* ── Card body ── */
@@ -171,7 +289,6 @@
 		color: var(--shell-muted);
 		line-height: 1.6;
 		margin-top: 0.25rem;
-		/* Clamp to 3 lines */
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
 		line-clamp: 3;
@@ -181,7 +298,7 @@
 
 	/* ── Placeholder cards ── */
 	.card--placeholder {
-		opacity: 0.35;
+		opacity: 0.3;
 		pointer-events: none;
 	}
 
@@ -201,12 +318,17 @@
 	}
 
 	@media (max-width: 580px) {
-		.story-grid {
-			grid-template-columns: 1fr;
+		.masthead {
+			padding-top: 3.5rem;
+			padding-bottom: 3rem;
 		}
 
-		.masthead {
-			padding-top: 3rem;
+		.masthead-headline {
+			font-size: clamp(2.8rem, 12vw, 4rem);
+		}
+
+		.story-grid {
+			grid-template-columns: 1fr;
 		}
 	}
 </style>
