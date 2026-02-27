@@ -38,29 +38,39 @@
 	.about-page {
 		padding-top: var(--space-lg);
 		padding-bottom: var(--space-xl);
+		color: var(--shell-text);
+		font-family: var(--font-body);
 	}
 
 	.page-label {
+		font-family: var(--font-ui);
 		font-size: var(--size-xs);
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--color-muted);
+		color: var(--shell-muted);
 		margin-bottom: 1.5rem;
 	}
 
 	.page-title {
 		font-size: clamp(2rem, 4vw, var(--size-2xl));
 		margin-bottom: 2.5rem;
+		color: var(--shell-text);
+	}
+
+	.about-page p {
+		color: var(--shell-muted);
+		line-height: var(--leading-loose);
 	}
 
 	.about-page h2 {
 		font-size: var(--size-lg);
 		margin-top: 2.5rem;
 		margin-bottom: 1rem;
+		color: var(--shell-text);
 	}
 
 	.about-page a {
-		color: var(--color-accent);
+		color: var(--shell-accent);
 		text-underline-offset: 3px;
 	}
 </style>

@@ -37,16 +37,24 @@
 	}
 
 	.page-label {
+		font-family: var(--font-ui);
 		font-size: var(--size-xs);
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--color-muted);
+		color: var(--shell-muted);
 		margin-bottom: 1.5rem;
 	}
 
 	.page-title {
 		font-size: clamp(2rem, 4vw, var(--size-2xl));
 		margin-bottom: 2rem;
+		color: var(--shell-text);
+	}
+
+	.support-page p {
+		color: var(--shell-muted);
+		font-family: var(--font-body);
+		line-height: var(--leading-loose);
 	}
 
 	/* ---- Buy Me a Coffee button ---- */
@@ -57,13 +65,14 @@
 		margin-block: 2.5rem;
 		padding: 0.8rem 1.6rem;
 		background: #ffdd00;
-		color: #1a1a18;
-		font-family: var(--font-sans);
-		font-size: var(--size-base);
-		font-weight: 400;
+		color: #0d0d0b;
+		font-family: var(--font-ui);
+		font-size: var(--size-sm);
+		font-weight: 700;
+		letter-spacing: 0.02em;
 		text-decoration: none;
 		border-radius: 4px;
-		border: 2px solid #1a1a18;
+		border: none;
 		transition:
 			background var(--transition),
 			transform var(--transition);
@@ -71,7 +80,7 @@
 
 	.bmc-button:hover {
 		background: #f5d000;
-		transform: translateY(-1px);
+		transform: translateY(-2px);
 	}
 
 	.bmc-icon {
@@ -80,7 +89,8 @@
 
 	.support-note {
 		font-size: var(--size-sm);
-		color: var(--color-muted);
+		color: var(--shell-muted);
+		font-family: var(--font-ui);
 		max-width: 48ch;
 	}
 </style>

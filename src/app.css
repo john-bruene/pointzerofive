@@ -1,6 +1,8 @@
 /* ============================================================
    POINTZEROFIVE.NET — Global Styles
-   Typography-forward, calm, large margins.
+   Two contexts:
+     .shell  → dark (header, homepage, stories index)
+     default → light/editorial (story pages, about, support)
    ============================================================ */
 
 /* ---------- Fonts ---------- */
@@ -11,31 +13,44 @@
 
 /* ---------- Design tokens ---------- */
 :root {
+	/* ── Light (story pages) ── */
 	--color-bg: #faf9f7;
 	--color-text: #1a1a18;
 	--color-muted: #6b6b68;
 	--color-accent: #c0392b;
 	--color-border: #e0ddd8;
 
+	/* ── Dark shell ── */
+	--shell-bg: #0d0d0b;
+	--shell-bg-card: #161613;
+	--shell-text: #f0ede8;
+	--shell-muted: #888880;
+	--shell-border: #2a2a26;
+	--shell-accent: #c0392b;
+
+	/* ── Fonts ── */
 	--font-display: 'Playfair Display', Georgia, serif;
 	--font-body: 'Source Serif 4', Georgia, serif;
+	--font-ui: system-ui, -apple-system, sans-serif;
 	--font-mono: 'Courier New', monospace;
 
+	/* ── Type scale ── */
 	--size-xs: 0.75rem;
-	--size-sm: 0.9rem;
+	--size-sm: 0.875rem;
 	--size-base: 1.125rem;
 	--size-lg: 1.4rem;
 	--size-xl: 2rem;
 	--size-2xl: 3rem;
 	--size-3xl: 4rem;
 
-	--leading-tight: 1.25;
+	/* ── Leading ── */
+	--leading-tight: 1.2;
 	--leading-normal: 1.65;
 	--leading-loose: 1.9;
 
+	/* ── Layout ── */
 	--max-prose: 68ch;
-	--max-wide: 1100px;
-
+	--max-wide: 1200px;
 	--space-sm: 1rem;
 	--space-md: 2rem;
 	--space-lg: 4rem;
@@ -61,9 +76,9 @@ html {
 }
 
 body {
-	background-color: var(--color-bg);
-	color: var(--color-text);
-	font-family: var(--font-body);
+	background-color: var(--shell-bg);
+	color: var(--shell-text);
+	font-family: var(--font-ui);
 	font-size: var(--size-base);
 	line-height: var(--leading-normal);
 	-webkit-font-smoothing: antialiased;
@@ -92,6 +107,21 @@ h4 {
 
 p + p {
 	margin-top: 1.25em;
+}
+
+/* ---------- Light context (story pages) ---------- */
+/* Wrap story page <main> content in .light-page */
+.light-page {
+	background: var(--color-bg);
+	color: var(--color-text);
+	font-family: var(--font-body);
+}
+
+.light-page h1,
+.light-page h2,
+.light-page h3,
+.light-page h4 {
+	font-family: var(--font-display);
 }
 
 /* ---------- Layout utilities ---------- */
