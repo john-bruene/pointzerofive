@@ -3,6 +3,12 @@
    Typography-forward, calm, large margins.
    ============================================================ */
 
+/* ---------- Fonts ---------- */
+@import '@fontsource/playfair-display/400.css';
+@import '@fontsource/playfair-display/400-italic.css';
+@import '@fontsource/source-serif-4/400.css';
+@import '@fontsource/source-serif-4/400-italic.css';
+
 /* ---------- Design tokens ---------- */
 :root {
 	--color-bg: #faf9f7;
@@ -11,7 +17,8 @@
 	--color-accent: #c0392b;
 	--color-border: #e0ddd8;
 
-	--font-sans: 'Georgia', 'Times New Roman', serif;
+	--font-display: 'Playfair Display', Georgia, serif;
+	--font-body: 'Source Serif 4', Georgia, serif;
 	--font-mono: 'Courier New', monospace;
 
 	--size-xs: 0.75rem;
@@ -56,7 +63,7 @@ html {
 body {
 	background-color: var(--color-bg);
 	color: var(--color-text);
-	font-family: var(--font-sans);
+	font-family: var(--font-body);
 	font-size: var(--size-base);
 	line-height: var(--leading-normal);
 	-webkit-font-smoothing: antialiased;
@@ -77,6 +84,7 @@ h1,
 h2,
 h3,
 h4 {
+	font-family: var(--font-display);
 	line-height: var(--leading-tight);
 	font-weight: 400;
 	letter-spacing: -0.01em;
