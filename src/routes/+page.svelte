@@ -1,5 +1,14 @@
 <script lang="ts">
 	import { stories } from '$lib/stories';
+
+	// Mouse-parallax for the slogan
+	let mx = $state(0);
+	let my = $state(0);
+
+	function trackMouse(e: MouseEvent) {
+		mx = (e.clientX / window.innerWidth  - 0.5) * 18;
+		my = (e.clientY / window.innerHeight - 0.5) *  9;
+	}
 </script>
 
 <svelte:head>
@@ -10,35 +19,30 @@
 	/>
 </svelte:head>
 
-<!-- ── Masthead ── -->
-<section class="masthead container">
-	<p class="masthead-eyebrow">Visual data journalism</p>
-	<h1 class="masthead-headline">
-		Stories that<br /><em>make you look</em><br />twice.
-	</h1>
-	<div class="masthead-rule"></div>
-	<p class="masthead-sub">
-		One dataset. One question. Built from scratch, every time.
-	</p>
+<svelte:window onmousemove={trackMouse} />
+
+<!-- ── Compact hero ── -->
+<section class="hero container">
+	<div class="hero-inner">
+		<h1
+			class="hero-slogan"
+			style="transform: translate({mx}px, {my}px)"
+		>
+			<em>Pauca sed matura.</em>
+		</h1>
+		<span class="hero-count">{stories.length} {stories.length === 1 ? 'story' : 'stories'}</span>
+	</div>
 </section>
 
 <!-- ── Story grid ── -->
 <section class="grid-section container">
-	<div class="grid-header">
-		<h2 class="grid-label">Latest stories</h2>
-		<span class="grid-count">{stories.length} published</span>
-	</div>
-
 	<div class="story-grid">
 		{#each stories as story, i}
 			<article class="card" style="--i:{i}">
 				<a href={story.slug} class="card-link">
-					<!-- Preview area -->
 					<div class="card-preview" style:background={story.color}>
 						<span class="card-category">{story.category}</span>
 					</div>
-
-					<!-- Card footer -->
 					<div class="card-body">
 						<div class="card-meta">
 							<span class="card-number">#{story.number}</span>
@@ -51,7 +55,6 @@
 			</article>
 		{/each}
 
-		<!-- Placeholder cards so the grid always looks full even with 1–2 stories -->
 		{#if stories.length < 3}
 			{#each Array(3 - stories.length) as _, j}
 				<article
@@ -70,92 +73,56 @@
 </section>
 
 <style>
-	/* ── Masthead ── */
-	.masthead {
-		padding-top: 6rem;
-		padding-bottom: 4rem;
+	/* ── Hero ── */
+	.hero {
+		padding-top: 3.5rem;
+		padding-bottom: 2rem;
 	}
 
-	.masthead-eyebrow {
+	.hero-inner {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: 1rem;
+		border-bottom: 1px solid var(--shell-border);
+		padding-bottom: 1.25rem;
+	}
+
+	.hero-slogan {
+		font-family: var(--font-display);
+		font-style: italic;
+		font-size: clamp(2rem, 4.5vw, 3.75rem);
+		line-height: 1.05;
+		letter-spacing: -0.02em;
+		color: var(--shell-text);
+		/* smooth parallax */
+		transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+		will-change: transform;
+		/* entrance */
+		animation: fadeUp 0.6s ease backwards;
+	}
+
+	.hero-slogan em {
+		font-style: italic; /* already italic via font-family, just reinforcing */
+	}
+
+	.hero-count {
 		font-family: var(--font-ui);
 		font-size: var(--size-xs);
-		color: var(--shell-accent);
-		letter-spacing: 0.18em;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		font-weight: 600;
-		margin-bottom: 1.5rem;
-		animation: slideInLeft 0.6s ease backwards;
-	}
-
-	.masthead-headline {
-		font-family: var(--font-display);
-		font-size: clamp(3.5rem, 7.5vw, 7rem);
-		line-height: 1.0;
-		letter-spacing: -0.03em;
-		color: var(--shell-text);
-		max-width: 14ch;
-		margin-bottom: 2rem;
-		animation: fadeUp 0.7s ease backwards;
-		animation-delay: 0.1s;
-	}
-
-	.masthead-headline em {
 		color: var(--shell-muted);
-		font-style: italic;
-	}
-
-	.masthead-rule {
-		width: 3.5rem;
-		height: 3px;
-		background: var(--shell-accent);
-		margin-bottom: 1.5rem;
+		white-space: nowrap;
+		padding-bottom: 0.2rem; /* baseline-align with slogan */
 		animation: fadeIn 0.8s ease backwards;
-		animation-delay: 0.35s;
+		animation-delay: 0.3s;
 	}
 
-	.masthead-sub {
-		font-family: var(--font-ui);
-		font-size: var(--size-sm);
-		color: var(--shell-muted);
-		letter-spacing: 0.02em;
-		max-width: 44ch;
-		line-height: 1.7;
-		animation: fadeUp 0.6s ease backwards;
-		animation-delay: 0.45s;
-	}
-
-	/* ── Grid section ── */
+	/* ── Grid ── */
 	.grid-section {
 		padding-bottom: var(--space-xl);
 	}
 
-	.grid-header {
-		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-		margin-bottom: 1.25rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--shell-border);
-	}
-
-	.grid-label {
-		font-family: var(--font-ui);
-		font-size: var(--size-xs);
-		font-weight: 600;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--shell-text);
-	}
-
-	.grid-count {
-		font-family: var(--font-ui);
-		font-size: var(--size-xs);
-		color: var(--shell-muted);
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-	}
-
-	/* ── 3-column responsive grid ── */
 	.story-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -168,13 +135,11 @@
 		background: var(--shell-bg-card);
 		overflow: hidden;
 		position: relative;
-		/* Staggered entrance */
 		animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
-		animation-delay: calc(var(--i, 0) * 130ms + 500ms);
-		/* Lift on hover */
-		transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-			box-shadow 0.25s ease,
-			z-index 0s;
+		animation-delay: calc(var(--i, 0) * 130ms + 400ms);
+		transition:
+			transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+			box-shadow 0.25s ease;
 	}
 
 	.card:not(.card--placeholder):hover {
@@ -195,7 +160,7 @@
 		color: var(--shell-accent);
 	}
 
-	/* ── Preview image area ── */
+	/* ── Card preview ── */
 	.card-preview {
 		position: relative;
 		aspect-ratio: 4 / 3;
@@ -203,7 +168,6 @@
 		transition: filter 300ms ease;
 	}
 
-	/* Dot-grid texture overlay */
 	.card-preview::before {
 		content: '';
 		position: absolute;
@@ -214,7 +178,6 @@
 		pointer-events: none;
 	}
 
-	/* Bottom vignette so category tag is readable */
 	.card-preview::after {
 		content: '';
 		position: absolute;
@@ -296,7 +259,7 @@
 		overflow: hidden;
 	}
 
-	/* ── Placeholder cards ── */
+	/* ── Placeholder ── */
 	.card--placeholder {
 		opacity: 0.3;
 		pointer-events: none;
@@ -312,23 +275,12 @@
 
 	/* ── Responsive ── */
 	@media (max-width: 900px) {
-		.story-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
+		.story-grid { grid-template-columns: repeat(2, 1fr); }
 	}
 
 	@media (max-width: 580px) {
-		.masthead {
-			padding-top: 3.5rem;
-			padding-bottom: 3rem;
-		}
-
-		.masthead-headline {
-			font-size: clamp(2.8rem, 12vw, 4rem);
-		}
-
-		.story-grid {
-			grid-template-columns: 1fr;
-		}
+		.hero { padding-top: 2.5rem; }
+		.hero-slogan { font-size: clamp(1.75rem, 9vw, 2.5rem); }
+		.story-grid { grid-template-columns: 1fr; }
 	}
 </style>
