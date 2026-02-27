@@ -1,0 +1,110 @@
+/* ============================================================
+   POINTZEROFIVE.NET — Global Styles
+   Typography-forward, calm, large margins.
+   ============================================================ */
+
+/* ---------- Design tokens ---------- */
+:root {
+	--color-bg: #faf9f7;
+	--color-text: #1a1a18;
+	--color-muted: #6b6b68;
+	--color-accent: #c0392b;
+	--color-border: #e0ddd8;
+
+	--font-sans: 'Georgia', 'Times New Roman', serif;
+	--font-mono: 'Courier New', monospace;
+
+	--size-xs: 0.75rem;
+	--size-sm: 0.9rem;
+	--size-base: 1.125rem;
+	--size-lg: 1.4rem;
+	--size-xl: 2rem;
+	--size-2xl: 3rem;
+	--size-3xl: 4rem;
+
+	--leading-tight: 1.25;
+	--leading-normal: 1.65;
+	--leading-loose: 1.9;
+
+	--max-prose: 68ch;
+	--max-wide: 1100px;
+
+	--space-sm: 1rem;
+	--space-md: 2rem;
+	--space-lg: 4rem;
+	--space-xl: 8rem;
+
+	--radius: 3px;
+	--transition: 200ms ease;
+}
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+	scroll-behavior: smooth;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-family: var(--font-sans);
+	font-size: var(--size-base);
+	line-height: var(--leading-normal);
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+video {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+
+/* ---------- Typography ---------- */
+h1,
+h2,
+h3,
+h4 {
+	line-height: var(--leading-tight);
+	font-weight: 400;
+	letter-spacing: -0.01em;
+}
+
+p + p {
+	margin-top: 1.25em;
+}
+
+/* ---------- Layout utilities ---------- */
+.container {
+	width: 100%;
+	max-width: var(--max-wide);
+	margin-inline: auto;
+	padding-inline: var(--space-md);
+}
+
+.prose {
+	max-width: var(--max-prose);
+	margin-inline: auto;
+}
+
+/* ---------- Visually hidden (a11y) ---------- */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
