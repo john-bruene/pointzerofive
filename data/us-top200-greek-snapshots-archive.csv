@@ -1,0 +1,1001 @@
+snapshot_date,snapshot_year,snapshot_label,snapshot_source,snapshot_timestamp,match_type,matched_key,unitid,institution_name,state_abbr,rank_2022_by_applicants,fraternities_yes_no,sororities_yes_no,pct_fraternity,pct_sorority,fraternity_raw,sorority_raw
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcalifornialosangeles,110662,University of California-Los Angeles,CA,1,Yes,Yes,11.0,13.0,11%,13%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniasandiego,110680,University of California-San Diego,CA,2,Yes,Yes,14.0,14.0,14%,14%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniaberkeley,110635,University of California-Berkeley,CA,3,Yes,Yes,3.0,9.0,3%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniairvine,110653,University of California-Irvine,CA,4,Yes,Yes,8.0,9.0,8%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniasantabarbara,110705,University of California-Santa Barbara,CA,5,Yes,Yes,10.0,7.0,10%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,newyorkuniversity,193900,New York University,NY,6,Yes,Yes,3.0,7.0,3%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniadavis,110644,University of California-Davis,CA,7,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,northeasternuniversity,167358,Northeastern University,MA,8,Yes,Yes,10.0,17.0,10%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,214777,Pennsylvania State University-Main Campus,PA,9,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmichiganannarbor,170976,University of Michigan-Ann Arbor,MI,10,Yes,Yes,9.0,19.0,9%,19%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,bostonuniversity,164988,Boston University,MA,11,Yes,Yes,,3.0,Not Reported,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,floridastateuniversity,134097,Florida State University,FL,12,Yes,Yes,13.0,23.0,13%,23%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,sandiegostateuniversity,122409,San Diego State University,CA,13,Yes,Yes,15.0,17.0,15%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,californiastateuniversitylongbeach,110583,California State University-Long Beach,CA,14,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,cornelluniversity,190415,Cornell University,NY,15,Yes,Yes,27.0,24.0,27%,24%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofsoutherncalifornia,123961,University of Southern California,CA,16,Yes,Yes,26.0,27.0,26%,27%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,104151,Arizona State University Campus Immersion,AZ,17,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,243780,Purdue University-Main Campus,IN,18,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniasantacruz,110714,University of California-Santa Cruz,CA,19,Yes,Yes,7.0,8.0,7%,8%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofsouthflorida,137351,University of South Florida,FL,20,Yes,Yes,5.0,7.0,5%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,204796,Ohio State University-Main Campus,OH,21,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofflorida,134130,University of Florida,FL,22,Yes,Yes,17.0,23.0,17%,23%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,145637,University of Illinois Urbana-Champaign,IL,23,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,harvarduniversity,166027,Harvard University,MA,24,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,columbiauniversityinthecityofnewyork,190150,Columbia University in the City of New York,NY,25,No,No,20.0,14.0,20%,14%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofwisconsinmadison,240444,University of Wisconsin-Madison,WI,26,Yes,Yes,9.0,8.0,9%,8%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,theuniversityoftexasataustin,228778,The University of Texas at Austin,TX,27,Yes,Yes,13.0,17.0,13%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110422,California Polytechnic State University-San Luis Obispo,CA,28,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmarylandcollegepark,163286,University of Maryland-College Park,MD,29,Yes,Yes,14.0,19.0,14%,19%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,stanforduniversity,243744,Stanford University,CA,30,Yes,Yes,18.0,24.0,18%,24%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnorthcarolinaatchapelhill,199120,University of North Carolina at Chapel Hill,NC,31,Yes,Yes,18.0,17.0,18%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcentralflorida,132903,University of Central Florida,FL,32,Yes,Yes,5.0,6.0,5%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniariverside,110671,University of California-Riverside,CA,33,Yes,Yes,4.0,6.0,4%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofpennsylvania,215062,University of Pennsylvania,PA,34,Yes,Yes,30.0,28.0,30%,28%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,theuniversityofalabama,100751,The University of Alabama,AL,35,Yes,Yes,28.0,42.0,28%,42%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcoloradoboulder,126614,University of Colorado Boulder,CO,36,Yes,Yes,12.0,22.0,12%,22%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,michiganstateuniversity,171100,Michigan State University,MI,37,Yes,Yes,11.0,12.0,11%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,215293,University of Pittsburgh-Pittsburgh Campus,PA,38,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,clemsonuniversity,217882,Clemson University,SC,39,No,No,16.0,31.0,16%,31%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofwashingtonseattlecampus,236948,University of Washington-Seattle Campus,WA,40,Yes,Yes,14.0,15.0,14%,15%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofarizona,104179,University of Arizona,AZ,41,Yes,Yes,10.0,20.0,10%,20%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,northwesternuniversity,147767,Northwestern University,IL,42,Yes,Yes,27.0,34.0,27%,34%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,234076,University of Virginia-Main Campus,VA,43,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,brownuniversity,217156,Brown University,RI,44,Yes,Yes,11.0,12.0,11%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,139755,Georgia Institute of Technology-Main Campus,GA,45,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,indianauniversitybloomington,151351,Indiana University-Bloomington,IN,46,Yes,Yes,19.0,24.0,19%,24%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,yaleuniversity,130794,Yale University,CT,47,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,dukeuniversity,198419,Duke University,NC,48,Yes,Yes,29.0,42.0,29%,42%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmiami,135726,University of Miami,FL,49,Yes,Yes,16.0,18.0,16%,18%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,californiastatepolytechnicuniversitypomona,110529,California State Polytechnic University-Pomona,CA,50,Yes,Yes,2.0,1.0,2%,1%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,californiastateuniversityfullerton,110565,California State University-Fullerton,CA,51,Yes,Yes,1.0,2.0,1%,2%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,fordhamuniversity,191241,Fordham University,NY,52,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,vanderbiltuniversity,221999,Vanderbilt University,TN,53,Yes,Yes,27.0,43.0,27%,43%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,auburnuniversity,100858,Auburn University,AL,54,Yes,Yes,23.0,42.0,23%,42%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmassachusettsamherst,166629,University of Massachusetts-Amherst,MA,55,Yes,Yes,7.0,7.0,7%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,233921,Virginia Polytechnic Institute and State University,VA,56,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,northernarizonauniversity,105330,Northern Arizona University,AZ,57,Yes,Yes,7.0,8.0,7%,8%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,texasaandmuniversitycollegestation,228723,Texas A & M University-College Station,TX,58,Yes,Yes,6.0,15.0,6%,15%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,218663,University of South Carolina-Columbia,SC,59,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,rutgersuniversitynewbrunswick,186380,Rutgers University-New Brunswick,NJ,60,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,binghamtonuniversity,196079,Binghamton University,NY,61,Yes,Yes,16.0,16.0,16%,16%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,syracuseuniversity,196413,Syracuse University,NY,62,Yes,Yes,24.0,42.0,24%,42%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,loyolauniversitychicago,146719,Loyola University Chicago,IL,63,Yes,Yes,9.0,20.0,9%,20%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofconnecticut,129020,University of Connecticut,CT,64,Yes,Yes,10.0,12.0,10%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,bayloruniversity,223232,Baylor University,TX,65,Yes,Yes,33.0,34.0,33%,34%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,stonybrookuniversity,196097,Stony Brook University,NY,66,Yes,Yes,3.0,3.0,3%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,bostoncollege,164924,Boston College,MA,67,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,theuniversityoftampa,137847,The University of Tampa,FL,68,Yes,Yes,2.0,5.0,2%,5%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofgeorgia,139959,University of Georgia,GA,69,Yes,Yes,20.0,31.0,20%,31%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,159391,Louisiana State University and Agricultural & Mechanical College,LA,70,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,casewesternreserveuniversity,201645,Case Western Reserve University,OH,71,Yes,Yes,36.0,34.0,36%,34%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,templeuniversity,216339,Temple University,PA,72,Yes,Yes,4.0,7.0,4%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofminnesotatwincities,174066,University of Minnesota-Twin Cities,MN,73,Yes,Yes,9.0,9.0,9%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,princetonuniversity,186131,Princeton University,NJ,74,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,johnshopkinsuniversity,162928,Johns Hopkins University,MD,75,Yes,Yes,20.0,32.0,20%,32%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofchicago,144050,University of Chicago,IL,76,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityoforegon,209551,University of Oregon,OR,77,Yes,Yes,16.0,18.0,16%,18%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,drexeluniversity,212054,Drexel University,PA,78,Yes,Yes,11.0,10.0,11%,10%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,theuniversityoftennesseeknoxville,221759,The University of Tennessee-Knoxville,TN,79,Yes,Yes,17.0,28.0,17%,28%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,183026,Southern New Hampshire University,NH,80,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,199193,North Carolina State University at Raleigh,NC,81,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,229115,Texas Tech University,TX,82,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofdelaware,130943,University of Delaware,DE,83,Yes,Yes,18.0,23.0,18%,23%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,tuftsuniversity,168148,Tufts University,MA,84,Yes,Yes,10.0,15.0,10%,15%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,carnegiemellonuniversity,211440,Carnegie Mellon University,PA,85,Yes,Yes,7.0,5.0,7%,5%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,sanjosestateuniversity,122755,San Jose State University,CA,86,Yes,Yes,4.0,5.0,4%,5%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,cunyhuntercollege,190594,CUNY Hunter College,NY,87,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110592,California State University-Los Angeles,CA,88,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,massachusettsinstituteoftechnology,166683,Massachusetts Institute of Technology,MA,89,Yes,Yes,45.0,25.0,45%,25%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190567,CUNY City College,NY,90,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,emoryuniversity,139658,Emory University,GA,91,Yes,Yes,23.0,22.0,23%,22%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,coloradostateuniversityfortcollins,126818,Colorado State University-Fort Collins,CO,92,No,No,5.0,7.0,5%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnorthtexas,227216,University of North Texas,TX,93,Yes,Yes,5.0,6.0,5%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,washingtonuniversityinstlouis,179867,Washington University in St Louis,MO,94,Yes,Yes,26.0,39.0,26%,39%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,depauluniversity,144740,DePaul University,IL,95,No,Yes,6.0,11.0,6%,11%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,tulaneuniversityoflouisiana,160755,Tulane University of Louisiana,LA,96,Yes,Yes,22.0,51.0,22%,51%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,riceuniversity,227757,Rice University,TX,97,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,232557,Liberty University,VA,98,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityatbuffalo,196088,University at Buffalo,NY,99,Yes,Yes,1.0,3.0,1%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,jamesmadisonuniversity,232423,James Madison University,VA,100,Yes,Yes,4.0,7.0,4%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,miamiuniversityoxford,204024,Miami University-Oxford,OH,101,Yes,Yes,25.0,40.0,25%,40%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofvermont,231174,University of Vermont,VT,102,No,No,8.0,7.0,8%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,sanfranciscostateuniversity,122597,San Francisco State University,CA,103,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofcaliforniamerced,445188,University of California-Merced,CA,104,Yes,Yes,8.0,8.0,8%,8%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofhouston,225511,University of Houston,TX,105,Yes,Yes,3.0,4.0,3%,4%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,104717,Grand Canyon University,AZ,106,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,201885,University of Cincinnati-Main Campus,OH,107,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,228459,Texas State University,TX,108,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190549,CUNY Brooklyn College,NY,109,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,180461,Montana State University,MT,110,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,dartmouthcollege,182670,Dartmouth College,NH,111,Yes,Yes,27.0,31.0,27%,31%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,georgewashingtonuniversity,131469,George Washington University,DC,112,Yes,Yes,5.0,9.0,5%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,georgetownuniversity,131496,Georgetown University,DC,113,No,No,10.0,10.0,10%,10%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,194310,Pace University,NY,114,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnotredame,152080,University of Notre Dame,IN,115,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofarkansas,106397,University of Arkansas,AR,116,Yes,Yes,23.0,37.0,23%,37%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,georgiastateuniversity,139940,Georgia State University,GA,117,Yes,Yes,3.0,3.0,3%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,sunyatalbany,196060,SUNY at Albany,NY,118,No,No,2.0,3.0,2%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110608,California State University-Northridge,CA,119,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,147703,Northern Illinois University,IL,120,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,199102,North Carolina A & T State University,NC,121,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,setonhalluniversity,186584,Seton Hall University,NJ,122,Yes,Yes,13.0,23.0,13%,23%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofiowa,153658,University of Iowa,IA,123,Yes,Yes,13.0,17.0,13%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,cunybernardmbaruchcollege,190512,CUNY Bernard M Baruch College,NY,124,Yes,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,oregonstateuniversity,209542,Oregon State University,OR,125,Yes,Yes,11.0,15.0,11%,15%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofrhodeisland,217484,University of Rhode Island,RI,126,Yes,Yes,17.0,28.0,17%,28%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110617,California State University-Sacramento,CA,127,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,204857,Ohio University-Main Campus,OH,128,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,stjohnsuniversitynewyork,195809,St. John's University-New York,NY,129,Yes,Yes,5.0,9.0,5%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,floridaatlanticuniversity,133669,Florida Atlantic University,FL,130,Yes,Yes,6.0,10.0,6%,10%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,rochesterinstituteoftechnology,195003,Rochester Institute of Technology,NY,131,Yes,Yes,4.0,2.0,4%,2%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,villanovauniversity,216597,Villanova University,PA,132,Yes,Yes,21.0,26.0,21%,26%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,hofstrauniversity,191649,Hofstra University,NY,133,Yes,Yes,8.0,12.0,8%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,145600,University of Illinois Chicago,IL,134,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,229027,The University of Texas at San Antonio,TX,135,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofsanfrancisco,122612,University of San Francisco,CA,136,Yes,Yes,5.0,10.0,5%,10%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,150136,Ball State University,IN,137,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190637,CUNY Lehman College,NY,138,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190664,CUNY Queens College,NY,139,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmississippi,176017,University of Mississippi,MS,140,Yes,Yes,32.0,43.0,32%,43%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,appalachianstateuniversity,197869,Appalachian State University,NC,141,Yes,Yes,2.0,4.0,2%,4%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofkentucky,157085,University of Kentucky,KY,142,Yes,Yes,22.0,35.0,22%,35%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,collegeofcharleston,217819,College of Charleston,SC,143,Yes,Yes,15.0,24.0,15%,24%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,228769,The University of Texas at Arlington,TX,144,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,iowastateuniversity,153603,Iowa State University,IA,145,Yes,Yes,14.0,18.0,14%,18%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,loyolamarymountuniversity,117946,Loyola Marymount University,CA,146,Yes,Yes,20.0,26.0,20%,26%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,207500,University of Oklahoma-Norman Campus,OK,147,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,theuniversityoftexasatdallas,228787,The University of Texas at Dallas,TX,148,Yes,Yes,5.0,7.0,5%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110538,California State University-Chico,CA,149,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,185590,Montclair State University,NJ,150,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,eastcarolinauniversity,198464,East Carolina University,NC,151,Yes,Yes,8.0,12.0,8%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnorthcarolinaatcharlotte,199139,University of North Carolina at Charlotte,NC,152,Yes,Yes,7.0,10.0,7%,10%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190655,CUNY New York City College of Technology,NY,153,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,colgateuniversity,190099,Colgate University,NY,154,Yes,Yes,21.0,31.0,21%,31%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,486840,Kennesaw State University,GA,155,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofutah,230764,University of Utah,UT,156,Yes,Yes,6.0,7.0,6%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnewhampshiremaincampus,183044,University of New Hampshire-Main Campus,NH,157,Yes,Yes,13.0,17.0,13%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,484844,Minerva University,CA,158,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,172699,Western Michigan University,MI,159,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,203517,Kent State University at Kent,OH,160,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmissouricolumbia,178396,University of Missouri-Columbia,MO,161,Yes,Yes,24.0,31.0,24%,31%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,199962,Wingate University,NC,162,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,georgemasonuniversity,232186,George Mason University,VA,163,Yes,Yes,5.0,6.0,5%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofrochester,195030,University of Rochester,NY,164,Yes,Yes,17.0,17.0,17%,17%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,169798,Eastern Michigan University,MI,165,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,centralmichiganuniversity,169248,Central Michigan University,MI,166,No,Yes,10.0,9.0,10%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnorthflorida,136172,University of North Florida,FL,167,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,illinoisstateuniversity,145813,Illinois State University,IL,168,Yes,Yes,4.0,7.0,4%,7%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofmassachusettsboston,166638,University of Massachusetts-Boston,MA,169,No,No,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,americanuniversity,131159,American University,DC,170,Yes,Yes,14.0,16.0,14%,16%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,washingtonstateuniversity,236939,Washington State University,WA,171,Yes,Yes,18.0,21.0,18%,21%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofdenver,127060,University of Denver,CO,172,Yes,Yes,25.0,28.0,25%,28%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,howarduniversity,131520,Howard University,DC,173,Yes,Yes,8.0,6.0,8%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,110547,California State University-Dominguez Hills,CA,174,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,207388,Oklahoma State University-Main Campus,OK,175,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnebraskalincoln,181464,University of Nebraska-Lincoln,NE,176,Yes,Yes,19.0,27.0,19%,27%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,141574,University of Hawaii at Manoa,HI,177,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofdayton,202480,University of Dayton,OH,178,Yes,Yes,10.0,21.0,10%,21%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,mississippistateuniversity,176080,Mississippi State University,MS,179,Yes,Yes,14.0,18.0,14%,18%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,190600,CUNY John Jay College of Criminal Justice,NY,180,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,quinnipiacuniversity,130226,Quinnipiac University,CT,181,Yes,Yes,18.0,26.0,18%,26%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,230603,Southern Utah University,UT,182,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,californiastateuniversityfresno,110556,California State University-Fresno,CA,183,Yes,Yes,3.0,3.0,3%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,151324,Indiana State University,IN,184,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,virginiacommonwealthuniversity,234030,Virginia Commonwealth University,VA,185,Yes,Yes,7.0,6.0,7%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,westvirginiauniversity,238032,West Virginia University,WV,186,Yes,Yes,12.0,12.0,12%,12%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,231624,William & Mary,VA,187,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,westerncarolinauniversity,200004,Western Carolina University,NC,188,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,towsonuniversity,164076,Towson University,MD,189,Yes,Yes,10.0,9.0,10%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,elonuniversity,198516,Elon University,NC,190,Yes,Yes,20.0,39.0,20%,39%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,201441,Bowling Green State University-Main Campus,OH,191,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,floridainternationaluniversity,133951,Florida International University,FL,192,Yes,Yes,3.0,3.0,3%,3%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,adelphiuniversity,188429,Adelphi University,NY,193,Yes,Yes,10.0,13.0,10%,13%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,coastalcarolinauniversity,218724,Coastal Carolina University,SC,194,No,No,2.0,6.0,2%,6%
+2021-12-31,2021,Greek Life,wayback,20210922021551,,,170082,Grand Valley State University,MI,195,,,,,,
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,rowanuniversity,184782,Rowan University,NJ,196,Yes,Yes,,,Not Reported,Not Reported
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,colbycollege,161086,Colby College,ME,197,Yes,Yes,0.0,0.0,0%,0%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,rensselaerpolytechnicinstitute,194824,Rensselaer Polytechnic Institute,NY,198,Yes,Yes,30.0,16.0,30%,16%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,universityofnorthcarolinawilmington,199218,University of North Carolina Wilmington,NC,199,Yes,Yes,10.0,9.0,10%,9%
+2021-12-31,2021,Greek Life,wayback,20210922021551,name,wakeforestuniversity,199847,Wake Forest University,NC,200,Yes,Yes,29.0,59.0,29%,59%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcalifornialosangeles,110662,University of California-Los Angeles,CA,1,Yes,Yes,11.0,13.0,11%,13%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniasandiego,110680,University of California-San Diego,CA,2,Yes,Yes,8.0,8.0,8%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniaberkeley,110635,University of California-Berkeley,CA,3,Yes,Yes,1.0,7.0,1%,7%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniairvine,110653,University of California-Irvine,CA,4,Yes,Yes,8.0,9.0,8%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniasantabarbara,110705,University of California-Santa Barbara,CA,5,Yes,Yes,10.0,7.0,10%,7%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,newyorkuniversity,193900,New York University,NY,6,Yes,Yes,3.0,7.0,3%,7%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniadavis,110644,University of California-Davis,CA,7,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,northeasternuniversity,167358,Northeastern University,MA,8,Yes,Yes,10.0,18.0,10%,18%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,214777,Pennsylvania State University-Main Campus,PA,9,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,170976,University of Michigan-Ann Arbor,MI,10,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,bostonuniversity,164988,Boston University,MA,11,Yes,Yes,,3.0,Not Reported,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,floridastateuniversity,134097,Florida State University,FL,12,Yes,Yes,13.0,22.0,13%,22%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,sandiegostateuniversity,122409,San Diego State University,CA,13,Yes,Yes,8.0,12.0,8%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,californiastateuniversitylongbeach,110583,California State University-Long Beach,CA,14,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cornelluniversity,190415,Cornell University,NY,15,Yes,Yes,27.0,24.0,27%,24%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofsoutherncalifornia,123961,University of Southern California,CA,16,Yes,Yes,11.0,14.0,11%,14%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,104151,Arizona State University Campus Immersion,AZ,17,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,243780,Purdue University-Main Campus,IN,18,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniasantacruz,110714,University of California-Santa Cruz,CA,19,Yes,Yes,3.0,5.0,3%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofsouthflorida,137351,University of South Florida,FL,20,Yes,Yes,4.0,6.0,4%,6%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,204796,Ohio State University-Main Campus,OH,21,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofflorida,134130,University of Florida,FL,22,Yes,Yes,14.0,22.0,14%,22%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,145637,University of Illinois Urbana-Champaign,IL,23,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,harvarduniversity,166027,Harvard University,MA,24,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,190150,Columbia University in the City of New York,NY,25,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofwisconsinmadison,240444,University of Wisconsin-Madison,WI,26,Yes,Yes,9.0,8.0,9%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,theuniversityoftexasataustin,228778,The University of Texas at Austin,TX,27,Yes,Yes,12.0,16.0,12%,16%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110422,California Polytechnic State University-San Luis Obispo,CA,28,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmarylandcollegepark,163286,University of Maryland-College Park,MD,29,Yes,Yes,14.0,19.0,14%,19%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,stanforduniversity,243744,Stanford University,CA,30,Yes,Yes,19.0,25.0,19%,25%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnorthcarolinaatchapelhill,199120,University of North Carolina at Chapel Hill,NC,31,Yes,Yes,15.0,17.0,15%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcentralflorida,132903,University of Central Florida,FL,32,Yes,Yes,3.0,6.0,3%,6%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniariverside,110671,University of California-Riverside,CA,33,Yes,Yes,4.0,6.0,4%,6%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofpennsylvania,215062,University of Pennsylvania,PA,34,Yes,Yes,30.0,28.0,30%,28%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,100751,The University of Alabama,AL,35,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcoloradoboulder,126614,University of Colorado Boulder,CO,36,Yes,Yes,10.0,22.0,10%,22%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,michiganstateuniversity,171100,Michigan State University,MI,37,Yes,Yes,11.0,12.0,11%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,215293,University of Pittsburgh-Pittsburgh Campus,PA,38,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,clemsonuniversity,217882,Clemson University,SC,39,No,No,8.0,17.0,8%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,236948,University of Washington-Seattle Campus,WA,40,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofarizona,104179,University of Arizona,AZ,41,Yes,Yes,9.0,17.0,9%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,northwesternuniversity,147767,Northwestern University,IL,42,Yes,Yes,23.0,16.0,23%,16%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofvirginiamaincampus,234076,University of Virginia-Main Campus,VA,43,Yes,Yes,31.0,31.0,31%,31%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,brownuniversity,217156,Brown University,RI,44,Yes,Yes,11.0,12.0,11%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,139755,Georgia Institute of Technology-Main Campus,GA,45,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,indianauniversitybloomington,151351,Indiana University-Bloomington,IN,46,Yes,Yes,21.0,21.0,21%,21%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,yaleuniversity,130794,Yale University,CT,47,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,dukeuniversity,198419,Duke University,NC,48,Yes,Yes,29.0,42.0,29%,42%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmiami,135726,University of Miami,FL,49,Yes,Yes,16.0,17.0,16%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110529,California State Polytechnic University-Pomona,CA,50,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,californiastateuniversityfullerton,110565,California State University-Fullerton,CA,51,Yes,Yes,1.0,2.0,1%,2%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,fordhamuniversity,191241,Fordham University,NY,52,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,vanderbiltuniversity,221999,Vanderbilt University,TN,53,Yes,Yes,27.0,43.0,27%,43%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,auburnuniversity,100858,Auburn University,AL,54,Yes,Yes,24.0,45.0,24%,45%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmassachusettsamherst,166629,University of Massachusetts-Amherst,MA,55,Yes,Yes,8.0,8.0,8%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,virginiapolytechnicinstituteandstateuniversity,233921,Virginia Polytechnic Institute and State University,VA,56,Yes,Yes,13.0,19.0,13%,19%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,northernarizonauniversity,105330,Northern Arizona University,AZ,57,Yes,Yes,8.0,11.0,8%,11%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,texasaandmuniversitycollegestation,228723,Texas A & M University-College Station,TX,58,Yes,Yes,6.0,15.0,6%,15%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,218663,University of South Carolina-Columbia,SC,59,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,rutgersuniversitynewbrunswick,186380,Rutgers University-New Brunswick,NJ,60,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,binghamtonuniversity,196079,Binghamton University,NY,61,Yes,Yes,16.0,16.0,16%,16%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,syracuseuniversity,196413,Syracuse University,NY,62,Yes,Yes,23.0,44.0,23%,44%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,loyolauniversitychicago,146719,Loyola University Chicago,IL,63,Yes,Yes,8.0,15.0,8%,15%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofconnecticut,129020,University of Connecticut,CT,64,Yes,Yes,10.0,12.0,10%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,bayloruniversity,223232,Baylor University,TX,65,Yes,Yes,33.0,34.0,33%,34%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,stonybrookuniversity,196097,Stony Brook University,NY,66,Yes,Yes,3.0,3.0,3%,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,bostoncollege,164924,Boston College,MA,67,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,137847,The University of Tampa,FL,68,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofgeorgia,139959,University of Georgia,GA,69,Yes,Yes,22.0,33.0,22%,33%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,159391,Louisiana State University and Agricultural & Mechanical College,LA,70,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,casewesternreserveuniversity,201645,Case Western Reserve University,OH,71,Yes,Yes,18.0,24.0,18%,24%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,templeuniversity,216339,Temple University,PA,72,Yes,Yes,4.0,7.0,4%,7%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofminnesotatwincities,174066,University of Minnesota-Twin Cities,MN,73,Yes,Yes,9.0,9.0,9%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,princetonuniversity,186131,Princeton University,NJ,74,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,johnshopkinsuniversity,162928,Johns Hopkins University,MD,75,Yes,Yes,13.0,26.0,13%,26%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofchicago,144050,University of Chicago,IL,76,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityoforegon,209551,University of Oregon,OR,77,Yes,Yes,15.0,17.0,15%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,drexeluniversity,212054,Drexel University,PA,78,Yes,Yes,11.0,9.0,11%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,theuniversityoftennesseeknoxville,221759,The University of Tennessee-Knoxville,TN,79,Yes,Yes,5.0,14.0,5%,14%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,183026,Southern New Hampshire University,NH,80,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,199193,North Carolina State University at Raleigh,NC,81,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,229115,Texas Tech University,TX,82,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofdelaware,130943,University of Delaware,DE,83,Yes,Yes,18.0,23.0,18%,23%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,tuftsuniversity,168148,Tufts University,MA,84,Yes,Yes,10.0,15.0,10%,15%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,carnegiemellonuniversity,211440,Carnegie Mellon University,PA,85,Yes,Yes,16.0,15.0,16%,15%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,sanjosestateuniversity,122755,San Jose State University,CA,86,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cunyhuntercollege,190594,CUNY Hunter College,NY,87,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110592,California State University-Los Angeles,CA,88,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,massachusettsinstituteoftechnology,166683,Massachusetts Institute of Technology,MA,89,Yes,Yes,39.0,26.0,39%,26%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cunycitycollege,190567,CUNY City College,NY,90,Yes,Yes,1.0,1.0,1%,1%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,emoryuniversity,139658,Emory University,GA,91,Yes,Yes,14.0,13.0,14%,13%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,126818,Colorado State University-Fort Collins,CO,92,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnorthtexas,227216,University of North Texas,TX,93,Yes,Yes,1.0,4.0,1%,4%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,washingtonuniversityinstlouis,179867,Washington University in St Louis,MO,94,Yes,Yes,19.0,10.0,19%,10%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,depauluniversity,144740,DePaul University,IL,95,No,Yes,5.0,8.0,5%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,160755,Tulane University of Louisiana,LA,96,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,riceuniversity,227757,Rice University,TX,97,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,232557,Liberty University,VA,98,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityatbuffalo,196088,University at Buffalo,NY,99,Yes,Yes,1.0,2.0,1%,2%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,jamesmadisonuniversity,232423,James Madison University,VA,100,Yes,Yes,3.0,7.0,3%,7%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,204024,Miami University-Oxford,OH,101,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofvermont,231174,University of Vermont,VT,102,No,No,5.0,5.0,5%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,sanfranciscostateuniversity,122597,San Francisco State University,CA,103,No,No,1.0,2.0,1%,2%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofcaliforniamerced,445188,University of California-Merced,CA,104,Yes,Yes,8.0,8.0,8%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofhouston,225511,University of Houston,TX,105,Yes,Yes,2.0,4.0,2%,4%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,104717,Grand Canyon University,AZ,106,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,201885,University of Cincinnati-Main Campus,OH,107,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,texasstateuniversity,228459,Texas State University,TX,108,Yes,Yes,5.0,5.0,5%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cunybrooklyncollege,190549,CUNY Brooklyn College,NY,109,Yes,Yes,1.0,1.0,1%,1%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,montanastateuniversity,180461,Montana State University,MT,110,Yes,Yes,2.0,2.0,2%,2%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,dartmouthcollege,182670,Dartmouth College,NH,111,Yes,Yes,29.0,33.0,29%,33%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,georgewashingtonuniversity,131469,George Washington University,DC,112,Yes,Yes,5.0,9.0,5%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,georgetownuniversity,131496,Georgetown University,DC,113,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,194310,Pace University,NY,114,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnotredame,152080,University of Notre Dame,IN,115,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofarkansas,106397,University of Arkansas,AR,116,Yes,Yes,25.0,38.0,25%,38%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,georgiastateuniversity,139940,Georgia State University,GA,117,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,sunyatalbany,196060,SUNY at Albany,NY,118,No,No,3.0,3.0,3%,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110608,California State University-Northridge,CA,119,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,147703,Northern Illinois University,IL,120,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,199102,North Carolina A & T State University,NC,121,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,setonhalluniversity,186584,Seton Hall University,NJ,122,Yes,Yes,15.0,22.0,15%,22%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofiowa,153658,University of Iowa,IA,123,Yes,Yes,13.0,17.0,13%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cunybernardmbaruchcollege,190512,CUNY Bernard M Baruch College,NY,124,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,oregonstateuniversity,209542,Oregon State University,OR,125,Yes,Yes,11.0,15.0,11%,15%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofrhodeisland,217484,University of Rhode Island,RI,126,Yes,Yes,16.0,16.0,16%,16%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110617,California State University-Sacramento,CA,127,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,204857,Ohio University-Main Campus,OH,128,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,stjohnsuniversitynewyork,195809,St. John's University-New York,NY,129,Yes,Yes,13.0,17.0,13%,17%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,floridaatlanticuniversity,133669,Florida Atlantic University,FL,130,Yes,Yes,6.0,10.0,6%,10%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,rochesterinstituteoftechnology,195003,Rochester Institute of Technology,NY,131,Yes,Yes,4.0,2.0,4%,2%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,villanovauniversity,216597,Villanova University,PA,132,Yes,Yes,21.0,26.0,21%,26%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,hofstrauniversity,191649,Hofstra University,NY,133,Yes,Yes,6.0,12.0,6%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,145600,University of Illinois Chicago,IL,134,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,229027,The University of Texas at San Antonio,TX,135,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofsanfrancisco,122612,University of San Francisco,CA,136,Yes,Yes,5.0,10.0,5%,10%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,ballstateuniversity,150136,Ball State University,IN,137,Yes,Yes,11.0,10.0,11%,10%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,cunylehmancollege,190637,CUNY Lehman College,NY,138,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,190664,CUNY Queens College,NY,139,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmississippi,176017,University of Mississippi,MS,140,Yes,Yes,35.0,45.0,35%,45%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,appalachianstateuniversity,197869,Appalachian State University,NC,141,Yes,Yes,8.0,12.0,8%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofkentucky,157085,University of Kentucky,KY,142,Yes,Yes,21.0,33.0,21%,33%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,collegeofcharleston,217819,College of Charleston,SC,143,Yes,Yes,21.0,30.0,21%,30%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,theuniversityoftexasatarlington,228769,The University of Texas at Arlington,TX,144,Yes,Yes,5.0,3.0,5%,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,iowastateuniversity,153603,Iowa State University,IA,145,Yes,Yes,13.0,18.0,13%,18%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,loyolamarymountuniversity,117946,Loyola Marymount University,CA,146,Yes,Yes,18.0,24.0,18%,24%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,207500,University of Oklahoma-Norman Campus,OK,147,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,theuniversityoftexasatdallas,228787,The University of Texas at Dallas,TX,148,Yes,Yes,2.0,5.0,2%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110538,California State University-Chico,CA,149,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,montclairstateuniversity,185590,Montclair State University,NJ,150,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,eastcarolinauniversity,198464,East Carolina University,NC,151,Yes,Yes,8.0,12.0,8%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnorthcarolinaatcharlotte,199139,University of North Carolina at Charlotte,NC,152,Yes,Yes,7.0,9.0,7%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,190655,CUNY New York City College of Technology,NY,153,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,colgateuniversity,190099,Colgate University,NY,154,Yes,Yes,21.0,32.0,21%,32%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,486840,Kennesaw State University,GA,155,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofutah,230764,University of Utah,UT,156,Yes,Yes,6.0,8.0,6%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,183044,University of New Hampshire-Main Campus,NH,157,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,484844,Minerva University,CA,158,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,westernmichiganuniversity,172699,Western Michigan University,MI,159,Yes,Yes,7.0,8.0,7%,8%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,kentstateuniversityatkent,203517,Kent State University at Kent,OH,160,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmissouricolumbia,178396,University of Missouri-Columbia,MO,161,Yes,Yes,24.0,30.0,24%,30%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,199962,Wingate University,NC,162,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,georgemasonuniversity,232186,George Mason University,VA,163,Yes,Yes,4.0,5.0,4%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofrochester,195030,University of Rochester,NY,164,Yes,Yes,15.0,12.0,15%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,169798,Eastern Michigan University,MI,165,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,centralmichiganuniversity,169248,Central Michigan University,MI,166,No,Yes,8.0,9.0,8%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnorthflorida,136172,University of North Florida,FL,167,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,illinoisstateuniversity,145813,Illinois State University,IL,168,Yes,Yes,13.0,14.0,13%,14%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofmassachusettsboston,166638,University of Massachusetts-Boston,MA,169,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,americanuniversity,131159,American University,DC,170,Yes,Yes,9.0,9.0,9%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,washingtonstateuniversity,236939,Washington State University,WA,171,Yes,Yes,21.0,26.0,21%,26%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofdenver,127060,University of Denver,CO,172,Yes,Yes,25.0,28.0,25%,28%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,howarduniversity,131520,Howard University,DC,173,Yes,Yes,5.0,3.0,5%,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,110547,California State University-Dominguez Hills,CA,174,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,207388,Oklahoma State University-Main Campus,OK,175,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnebraskalincoln,181464,University of Nebraska-Lincoln,NE,176,Yes,Yes,20.0,27.0,20%,27%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,141574,University of Hawaii at Manoa,HI,177,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofdayton,202480,University of Dayton,OH,178,Yes,Yes,12.0,22.0,12%,22%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,mississippistateuniversity,176080,Mississippi State University,MS,179,Yes,Yes,15.0,18.0,15%,18%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,190600,CUNY John Jay College of Criminal Justice,NY,180,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,quinnipiacuniversity,130226,Quinnipiac University,CT,181,Yes,Yes,15.0,18.0,15%,18%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,230603,Southern Utah University,UT,182,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,californiastateuniversityfresno,110556,California State University-Fresno,CA,183,Yes,Yes,4.0,4.0,4%,4%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,151324,Indiana State University,IN,184,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,virginiacommonwealthuniversity,234030,Virginia Commonwealth University,VA,185,Yes,Yes,6.0,5.0,6%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,westvirginiauniversity,238032,West Virginia University,WV,186,Yes,Yes,12.0,12.0,12%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,231624,William & Mary,VA,187,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,westerncarolinauniversity,200004,Western Carolina University,NC,188,Yes,Yes,,,Not Reported,Not Reported
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,towsonuniversity,164076,Towson University,MD,189,Yes,Yes,8.0,9.0,8%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,elonuniversity,198516,Elon University,NC,190,Yes,Yes,20.0,39.0,20%,39%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,201441,Bowling Green State University-Main Campus,OH,191,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,floridainternationaluniversity,133951,Florida International University,FL,192,Yes,Yes,3.0,3.0,3%,3%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,adelphiuniversity,188429,Adelphi University,NY,193,Yes,Yes,9.0,12.0,9%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,coastalcarolinauniversity,218724,Coastal Carolina University,SC,194,No,No,2.0,5.0,2%,5%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,,,170082,Grand Valley State University,MI,195,,,,,,
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,rowanuniversity,184782,Rowan University,NJ,196,Yes,Yes,4.0,4.0,4%,4%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,colbycollege,161086,Colby College,ME,197,No,No,0.0,0.0,0%,0%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,rensselaerpolytechnicinstitute,194824,Rensselaer Polytechnic Institute,NY,198,Yes,Yes,16.0,12.0,16%,12%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,universityofnorthcarolinawilmington,199218,University of North Carolina Wilmington,NC,199,Yes,Yes,11.0,9.0,11%,9%
+2022-12-31,2022,MASTER_COPY- Greek Life Participation,wayback,20221130171300,name,wakeforestuniversity,199847,Wake Forest University,NC,200,Yes,Yes,28.0,57.0,28%,57%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110662,110662,University of California-Los Angeles,CA,1,Y,Y,11.0,13.0,11%,13%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110680,110680,University of California-San Diego,CA,2,Y,Y,14.0,14.0,14%,14%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110635,110635,University of California-Berkeley,CA,3,Y,Y,2.0,4.0,2%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110653,110653,University of California-Irvine,CA,4,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110705,110705,University of California-Santa Barbara,CA,5,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,193900,193900,New York University,NY,6,Y,Y,2.0,4.0,2%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110644,110644,University of California-Davis,CA,7,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,167358,167358,Northeastern University,MA,8,Y,Y,10.0,15.0,10%,15%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,214777,214777,Pennsylvania State University-Main Campus,PA,9,Y,Y,5.0,7.0,5%,7%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,170976,170976,University of Michigan-Ann Arbor,MI,10,Y,Y,8.0,16.0,8%,16%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,164988,164988,Boston University,MA,11,Y,Y,,10.0,Not Reported,10%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,134097,134097,Florida State University,FL,12,Y,Y,17.0,23.0,17%,23%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,122409,122409,San Diego State University,CA,13,Y,Y,10.0,12.0,10%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110583,110583,California State University-Long Beach,CA,14,Y,Y,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,190415,190415,Cornell University,NY,15,Y,Y,19.0,16.0,19%,16%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,123961,123961,University of Southern California,CA,16,Y,Y,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,104151,104151,Arizona State University Campus Immersion,AZ,17,Y,Y,8.0,10.0,8%,10%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,243780,243780,Purdue University-Main Campus,IN,18,Y,Y,15.0,17.0,15%,17%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110714,110714,University of California-Santa Cruz,CA,19,Y,Y,4.0,5.0,4%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,137351,137351,University of South Florida,FL,20,Y,Y,3.0,4.0,3%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,204796,204796,Ohio State University-Main Campus,OH,21,Y,Y,8.0,11.0,8%,11%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,134130,134130,University of Florida,FL,22,Y,Y,17.0,24.0,17%,24%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,145637,145637,University of Illinois Urbana-Champaign,IL,23,Y,Y,21.0,27.0,21%,27%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,166027,166027,Harvard University,MA,24,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,190150,190150,Columbia University in the City of New York,NY,25,Y,Y,10.0,11.0,10%,11%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,240444,240444,University of Wisconsin-Madison,WI,26,Y,Y,9.0,8.0,9%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,228778,228778,The University of Texas at Austin,TX,27,Y,Y,13.0,15.0,13%,15%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110422,110422,California Polytechnic State University-San Luis Obispo,CA,28,Y,Y,16.0,20.0,16%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,163286,163286,University of Maryland-College Park,MD,29,Y,Y,11.0,14.0,11%,14%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,243744,243744,Stanford University,CA,30,Y,Y,18.0,23.0,18%,23%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,199120,199120,University of North Carolina at Chapel Hill,NC,31,Y,Y,14.0,16.0,14%,16%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,132903,132903,University of Central Florida,FL,32,Y,Y,3.0,6.0,3%,6%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110671,110671,University of California-Riverside,CA,33,Y,Y,2.0,4.0,2%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,215062,215062,University of Pennsylvania,PA,34,Y,Y,20.0,21.0,20%,21%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,100751,100751,The University of Alabama,AL,35,Y,Y,29.0,44.0,29%,44%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,126614,126614,University of Colorado Boulder,CO,36,Y,Y,12.0,20.0,12%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,171100,171100,Michigan State University,MI,37,Y,Y,11.0,12.0,11%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,215293,215293,University of Pittsburgh-Pittsburgh Campus,PA,38,Y,Y,11.0,14.0,11%,14%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,217882,217882,Clemson University,SC,39,Y,Y,9.0,19.0,9%,19%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,236948,236948,University of Washington-Seattle Campus,WA,40,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,104179,104179,University of Arizona,AZ,41,Y,Y,4.0,8.0,4%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,147767,147767,Northwestern University,IL,42,Y,Y,12.0,13.0,12%,13%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,234076,234076,University of Virginia-Main Campus,VA,43,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,217156,217156,Brown University,RI,44,Y,Y,7.0,4.0,7%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,139755,139755,Georgia Institute of Technology-Main Campus,GA,45,Y,Y,5.0,8.0,5%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,151351,151351,Indiana University-Bloomington,IN,46,Y,Y,20.0,20.0,20%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,130794,130794,Yale University,CT,47,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,198419,198419,Duke University,NC,48,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,135726,135726,University of Miami,FL,49,Y,Y,19.0,19.0,19%,19%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110529,110529,California State Polytechnic University-Pomona,CA,50,Y,Y,2.0,1.0,2%,1%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110565,110565,California State University-Fullerton,CA,51,Y,Y,1.0,3.0,1%,3%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,191241,191241,Fordham University,NY,52,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,221999,221999,Vanderbilt University,TN,53,Y,Y,24.0,28.0,24%,28%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,100858,100858,Auburn University,AL,54,Y,Y,27.0,44.0,27%,44%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,166629,166629,University of Massachusetts-Amherst,MA,55,Y,Y,6.0,5.0,6%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,233921,233921,Virginia Polytechnic Institute and State University,VA,56,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,105330,Northern Arizona University,AZ,57,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,228723,228723,Texas A & M University-College Station,TX,58,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,218663,218663,University of South Carolina-Columbia,SC,59,Y,Y,26.0,31.0,26%,31%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,186380,186380,Rutgers University-New Brunswick,NJ,60,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,196079,196079,Binghamton University,NY,61,Y,Y,16.0,16.0,16%,16%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,196413,196413,Syracuse University,NY,62,Y,Y,20.0,44.0,20%,44%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,146719,146719,Loyola University Chicago,IL,63,Y,Y,8.0,15.0,8%,15%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,129020,129020,University of Connecticut,CT,64,Y,Y,10.0,11.0,10%,11%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,223232,223232,Baylor University,TX,65,Y,Y,20.0,34.0,20%,34%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,196097,196097,Stony Brook University,NY,66,Y,Y,3.0,3.0,3%,3%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,164924,164924,Boston College,MA,67,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,137847,137847,The University of Tampa,FL,68,Y,Y,15.0,25.0,15%,25%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,139959,139959,University of Georgia,GA,69,Y,Y,23.0,36.0,23%,36%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,159391,159391,Louisiana State University and Agricultural & Mechanical College,LA,70,Y,Y,15.0,25.0,15%,25%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,201645,201645,Case Western Reserve University,OH,71,Y,Y,17.0,22.0,17%,22%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,216339,216339,Temple University,PA,72,Y,Y,0.0,1.0,0%,1%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,174066,174066,University of Minnesota-Twin Cities,MN,73,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,186131,186131,Princeton University,NJ,74,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,162928,162928,Johns Hopkins University,MD,75,Y,Y,14.0,20.0,14%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,144050,144050,University of Chicago,IL,76,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,209551,209551,University of Oregon,OR,77,Y,Y,16.0,17.0,16%,17%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,212054,212054,Drexel University,PA,78,Y,Y,11.0,8.0,11%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,221759,221759,The University of Tennessee-Knoxville,TN,79,Y,Y,19.0,33.0,19%,33%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,183026,Southern New Hampshire University,NH,80,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,199193,199193,North Carolina State University at Raleigh,NC,81,Y,Y,11.0,15.0,11%,15%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,229115,229115,Texas Tech University,TX,82,Y,Y,12.0,17.0,12%,17%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,130943,130943,University of Delaware,DE,83,Y,Y,16.0,21.0,16%,21%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,168148,168148,Tufts University,MA,84,Y,Y,8.0,9.0,8%,9%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,211440,211440,Carnegie Mellon University,PA,85,Y,Y,14.0,11.0,14%,11%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,122755,122755,San Jose State University,CA,86,Y,Y,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,190594,190594,CUNY Hunter College,NY,87,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110592,110592,California State University-Los Angeles,CA,88,Y,Y,1.0,1.0,1%,1%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,166683,166683,Massachusetts Institute of Technology,MA,89,Y,Y,44.0,25.0,44%,25%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190567,CUNY City College,NY,90,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,139658,139658,Emory University,GA,91,Y,Y,20.0,20.0,20%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,126818,126818,Colorado State University-Fort Collins,CO,92,Y,Y,4.0,5.0,4%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,227216,University of North Texas,TX,93,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,179867,179867,Washington University in St Louis,MO,94,Y,Y,11.0,9.0,11%,9%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,144740,144740,DePaul University,IL,95,Y,Y,4.0,5.0,4%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,160755,160755,Tulane University of Louisiana,LA,96,Y,Y,26.0,54.0,26%,54%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,227757,227757,Rice University,TX,97,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,232557,Liberty University,VA,98,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,196088,196088,University at Buffalo,NY,99,Y,Y,1.0,2.0,1%,2%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,232423,232423,James Madison University,VA,100,Y,Y,4.0,5.0,4%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,204024,204024,Miami University-Oxford,OH,101,Y,Y,20.0,30.0,20%,30%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,231174,231174,University of Vermont,VT,102,Y,Y,2.0,3.0,2%,3%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,122597,San Francisco State University,CA,103,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,445188,445188,University of California-Merced,CA,104,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,225511,225511,University of Houston,TX,105,Y,Y,3.0,3.0,3%,3%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,104717,Grand Canyon University,AZ,106,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,201885,201885,University of Cincinnati-Main Campus,OH,107,Y,Y,10.0,8.0,10%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,228459,Texas State University,TX,108,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190549,CUNY Brooklyn College,NY,109,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,180461,180461,Montana State University,MT,110,Y,Y,6.0,5.0,6%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,182670,182670,Dartmouth College,NH,111,Y,Y,35.0,36.0,35%,36%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,131469,131469,George Washington University,DC,112,Y,Y,9.0,12.0,9%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,131496,131496,Georgetown University,DC,113,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,194310,Pace University,NY,114,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,152080,152080,University of Notre Dame,IN,115,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,106397,106397,University of Arkansas,AR,116,Y,Y,26.0,39.0,26%,39%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,139940,139940,Georgia State University,GA,117,Y,Y,4.0,4.0,4%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,196060,SUNY at Albany,NY,118,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,110608,California State University-Northridge,CA,119,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,147703,Northern Illinois University,IL,120,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,199102,North Carolina A & T State University,NC,121,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,186584,Seton Hall University,NJ,122,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,153658,153658,University of Iowa,IA,123,Y,Y,13.0,17.0,13%,17%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,190512,190512,CUNY Bernard M Baruch College,NY,124,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,209542,209542,Oregon State University,OR,125,Y,Y,10.0,16.0,10%,16%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,217484,217484,University of Rhode Island,RI,126,Y,Y,10.0,15.0,10%,15%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,110617,California State University-Sacramento,CA,127,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,204857,204857,Ohio University-Main Campus,OH,128,Y,Y,10.0,7.0,10%,7%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,195809,St. John's University-New York,NY,129,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,133669,133669,Florida Atlantic University,FL,130,Y,Y,5.0,5.0,5%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,195003,195003,Rochester Institute of Technology,NY,131,Y,Y,3.0,2.0,3%,2%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,216597,216597,Villanova University,PA,132,Y,Y,25.0,49.0,25%,49%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,191649,191649,Hofstra University,NY,133,Y,Y,5.0,8.0,5%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,145600,145600,University of Illinois Chicago,IL,134,Y,Y,4.0,4.0,4%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,229027,The University of Texas at San Antonio,TX,135,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,122612,122612,University of San Francisco,CA,136,Y,Y,5.0,9.0,5%,9%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,150136,Ball State University,IN,137,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190637,CUNY Lehman College,NY,138,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190664,CUNY Queens College,NY,139,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,176017,176017,University of Mississippi,MS,140,Y,Y,40.0,57.0,40%,57%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,197869,197869,Appalachian State University,NC,141,Y,Y,10.0,10.0,10%,10%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,157085,157085,University of Kentucky,KY,142,Y,Y,23.0,31.0,23%,31%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,217819,217819,College of Charleston,SC,143,Y,Y,19.0,17.0,19%,17%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,228769,The University of Texas at Arlington,TX,144,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,153603,153603,Iowa State University,IA,145,Y,Y,14.0,14.0,14%,14%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,117946,117946,Loyola Marymount University,CA,146,Y,Y,16.0,26.0,16%,26%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,207500,207500,University of Oklahoma-Norman Campus,OK,147,Y,Y,28.0,32.0,28%,32%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,228787,228787,The University of Texas at Dallas,TX,148,Y,Y,3.0,5.0,3%,5%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,110538,California State University-Chico,CA,149,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,185590,Montclair State University,NJ,150,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,198464,198464,East Carolina University,NC,151,Y,Y,9.0,12.0,9%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,199139,199139,University of North Carolina at Charlotte,NC,152,Y,Y,7.0,8.0,7%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190655,CUNY New York City College of Technology,NY,153,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,190099,190099,Colgate University,NY,154,Y,Y,21.0,33.0,21%,33%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,486840,Kennesaw State University,GA,155,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,230764,University of Utah,UT,156,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,183044,183044,University of New Hampshire-Main Campus,NH,157,Y,Y,14.0,14.0,14%,14%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,484844,Minerva University,CA,158,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,172699,Western Michigan University,MI,159,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,203517,Kent State University at Kent,OH,160,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,178396,178396,University of Missouri-Columbia,MO,161,Y,Y,23.0,29.0,23%,29%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,199962,Wingate University,NC,162,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,232186,232186,George Mason University,VA,163,N,N,3.0,4.0,3%,4%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,195030,195030,University of Rochester,NY,164,Y,Y,13.0,12.0,13%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,169798,Eastern Michigan University,MI,165,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,169248,Central Michigan University,MI,166,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,136172,University of North Florida,FL,167,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,145813,Illinois State University,IL,168,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,166638,166638,University of Massachusetts-Boston,MA,169,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,131159,131159,American University,DC,170,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,236939,236939,Washington State University,WA,171,Y,Y,21.0,23.0,21%,23%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,127060,127060,University of Denver,CO,172,Y,Y,16.0,20.0,16%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,131520,131520,Howard University,DC,173,Y,Y,8.0,6.0,8%,6%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,110547,California State University-Dominguez Hills,CA,174,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,207388,Oklahoma State University-Main Campus,OK,175,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,181464,181464,University of Nebraska-Lincoln,NE,176,Y,Y,25.0,33.0,25%,33%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,141574,University of Hawaii at Manoa,HI,177,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,202480,University of Dayton,OH,178,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,176080,176080,Mississippi State University,MS,179,Y,Y,20.0,26.0,20%,26%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,190600,CUNY John Jay College of Criminal Justice,NY,180,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,130226,130226,Quinnipiac University,CT,181,Y,Y,12.0,20.0,12%,20%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,230603,Southern Utah University,UT,182,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,110556,110556,California State University-Fresno,CA,183,Y,Y,2.0,2.0,2%,2%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,151324,Indiana State University,IN,184,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,234030,234030,Virginia Commonwealth University,VA,185,Y,Y,5.0,3.0,5%,3%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,238032,238032,West Virginia University,WV,186,Y,Y,7.0,6.0,7%,6%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,231624,231624,William & Mary,VA,187,Y,Y,20.0,22.0,20%,22%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,200004,Western Carolina University,NC,188,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,164076,164076,Towson University,MD,189,Y,Y,7.0,6.0,7%,6%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,198516,198516,Elon University,NC,190,Y,Y,20.0,39.0,20%,39%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,201441,Bowling Green State University-Main Campus,OH,191,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,133951,133951,Florida International University,FL,192,Y,Y,,,Not Reported,Not Reported
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,188429,Adelphi University,NY,193,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,218724,Coastal Carolina University,SC,194,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,,,170082,Grand Valley State University,MI,195,,,,,,
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,184782,184782,Rowan University,NJ,196,Y,Y,8.0,8.0,8%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,161086,161086,Colby College,ME,197,N,N,0.0,0.0,0%,0%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,194824,194824,Rensselaer Polytechnic Institute,NY,198,Y,Y,16.0,12.0,16%,12%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,199218,199218,University of North Carolina Wilmington,NC,199,Y,Y,11.0,8.0,11%,8%
+2023-12-31,2023,Greek Life 2023-24,wayback,20231204062725,unitid,199847,199847,Wake Forest University,NC,200,Y,Y,36.0,64.0,36%,64%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110662,110662,University of California-Los Angeles,CA,1,Y,Y,11.0,13.0,11%,13%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110680,110680,University of California-San Diego,CA,2,Y,Y,14.0,14.0,14%,14%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110635,110635,University of California-Berkeley,CA,3,Y,Y,2.0,4.0,2%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110653,110653,University of California-Irvine,CA,4,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110705,110705,University of California-Santa Barbara,CA,5,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,193900,193900,New York University,NY,6,Y,Y,2.0,4.0,2%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110644,110644,University of California-Davis,CA,7,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,167358,167358,Northeastern University,MA,8,Y,Y,10.0,15.0,10%,15%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,214777,214777,Pennsylvania State University-Main Campus,PA,9,Y,Y,5.0,7.0,5%,7%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,170976,170976,University of Michigan-Ann Arbor,MI,10,Y,Y,8.0,16.0,8%,16%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,164988,164988,Boston University,MA,11,Y,Y,,10.0,Not Reported,10%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,134097,134097,Florida State University,FL,12,Y,Y,17.0,23.0,17%,23%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,122409,122409,San Diego State University,CA,13,Y,Y,10.0,12.0,10%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110583,110583,California State University-Long Beach,CA,14,Y,Y,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,190415,190415,Cornell University,NY,15,Y,Y,19.0,16.0,19%,16%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,123961,123961,University of Southern California,CA,16,Y,Y,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,104151,104151,Arizona State University Campus Immersion,AZ,17,Y,Y,8.0,10.0,8%,10%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,243780,243780,Purdue University-Main Campus,IN,18,Y,Y,15.0,17.0,15%,17%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110714,110714,University of California-Santa Cruz,CA,19,Y,Y,4.0,5.0,4%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,137351,137351,University of South Florida,FL,20,Y,Y,3.0,4.0,3%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,204796,204796,Ohio State University-Main Campus,OH,21,Y,Y,8.0,11.0,8%,11%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,134130,134130,University of Florida,FL,22,Y,Y,17.0,24.0,17%,24%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,145637,145637,University of Illinois Urbana-Champaign,IL,23,Y,Y,21.0,27.0,21%,27%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,166027,166027,Harvard University,MA,24,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,190150,190150,Columbia University in the City of New York,NY,25,Y,Y,10.0,11.0,10%,11%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,240444,240444,University of Wisconsin-Madison,WI,26,Y,Y,9.0,8.0,9%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,228778,228778,The University of Texas at Austin,TX,27,Y,Y,13.0,15.0,13%,15%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110422,110422,California Polytechnic State University-San Luis Obispo,CA,28,Y,Y,16.0,20.0,16%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,163286,163286,University of Maryland-College Park,MD,29,Y,Y,11.0,14.0,11%,14%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,243744,243744,Stanford University,CA,30,Y,Y,18.0,23.0,18%,23%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,199120,199120,University of North Carolina at Chapel Hill,NC,31,Y,Y,14.0,16.0,14%,16%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,132903,132903,University of Central Florida,FL,32,Y,Y,3.0,6.0,3%,6%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110671,110671,University of California-Riverside,CA,33,Y,Y,2.0,4.0,2%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,215062,215062,University of Pennsylvania,PA,34,Y,Y,20.0,21.0,20%,21%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,100751,100751,The University of Alabama,AL,35,Y,Y,29.0,44.0,29%,44%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,126614,126614,University of Colorado Boulder,CO,36,Y,Y,12.0,20.0,12%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,171100,171100,Michigan State University,MI,37,Y,Y,11.0,12.0,11%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,215293,215293,University of Pittsburgh-Pittsburgh Campus,PA,38,Y,Y,11.0,14.0,11%,14%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,217882,217882,Clemson University,SC,39,Y,Y,9.0,19.0,9%,19%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,236948,236948,University of Washington-Seattle Campus,WA,40,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,104179,104179,University of Arizona,AZ,41,Y,Y,4.0,8.0,4%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,147767,147767,Northwestern University,IL,42,Y,Y,12.0,13.0,12%,13%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,234076,234076,University of Virginia-Main Campus,VA,43,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,217156,217156,Brown University,RI,44,Y,Y,7.0,4.0,7%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,139755,139755,Georgia Institute of Technology-Main Campus,GA,45,Y,Y,5.0,8.0,5%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,151351,151351,Indiana University-Bloomington,IN,46,Y,Y,20.0,20.0,20%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,130794,130794,Yale University,CT,47,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,198419,198419,Duke University,NC,48,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,135726,135726,University of Miami,FL,49,Y,Y,19.0,19.0,19%,19%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110529,110529,California State Polytechnic University-Pomona,CA,50,Y,Y,2.0,1.0,2%,1%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110565,110565,California State University-Fullerton,CA,51,Y,Y,1.0,3.0,1%,3%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,191241,191241,Fordham University,NY,52,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,221999,221999,Vanderbilt University,TN,53,Y,Y,24.0,28.0,24%,28%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,100858,100858,Auburn University,AL,54,Y,Y,27.0,44.0,27%,44%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,166629,166629,University of Massachusetts-Amherst,MA,55,Y,Y,6.0,5.0,6%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,233921,233921,Virginia Polytechnic Institute and State University,VA,56,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,105330,Northern Arizona University,AZ,57,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,228723,228723,Texas A & M University-College Station,TX,58,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,218663,218663,University of South Carolina-Columbia,SC,59,Y,Y,26.0,31.0,26%,31%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,186380,186380,Rutgers University-New Brunswick,NJ,60,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,196079,196079,Binghamton University,NY,61,Y,Y,16.0,16.0,16%,16%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,196413,196413,Syracuse University,NY,62,Y,Y,20.0,44.0,20%,44%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,146719,146719,Loyola University Chicago,IL,63,Y,Y,8.0,15.0,8%,15%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,129020,129020,University of Connecticut,CT,64,Y,Y,10.0,11.0,10%,11%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,223232,223232,Baylor University,TX,65,Y,Y,20.0,34.0,20%,34%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,196097,196097,Stony Brook University,NY,66,Y,Y,3.0,3.0,3%,3%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,164924,164924,Boston College,MA,67,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,137847,137847,The University of Tampa,FL,68,Y,Y,15.0,25.0,15%,25%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,139959,139959,University of Georgia,GA,69,Y,Y,23.0,36.0,23%,36%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,159391,159391,Louisiana State University and Agricultural & Mechanical College,LA,70,Y,Y,15.0,25.0,15%,25%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,201645,201645,Case Western Reserve University,OH,71,Y,Y,17.0,22.0,17%,22%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,216339,216339,Temple University,PA,72,Y,Y,0.0,1.0,0%,1%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,174066,174066,University of Minnesota-Twin Cities,MN,73,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,186131,186131,Princeton University,NJ,74,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,162928,162928,Johns Hopkins University,MD,75,Y,Y,14.0,20.0,14%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,144050,144050,University of Chicago,IL,76,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,209551,209551,University of Oregon,OR,77,Y,Y,16.0,17.0,16%,17%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,212054,212054,Drexel University,PA,78,Y,Y,11.0,8.0,11%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,221759,221759,The University of Tennessee-Knoxville,TN,79,Y,Y,19.0,33.0,19%,33%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,183026,Southern New Hampshire University,NH,80,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,199193,199193,North Carolina State University at Raleigh,NC,81,Y,Y,11.0,15.0,11%,15%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,229115,229115,Texas Tech University,TX,82,Y,Y,12.0,17.0,12%,17%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,130943,130943,University of Delaware,DE,83,Y,Y,16.0,21.0,16%,21%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,168148,168148,Tufts University,MA,84,Y,Y,8.0,9.0,8%,9%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,211440,211440,Carnegie Mellon University,PA,85,Y,Y,14.0,11.0,14%,11%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,122755,122755,San Jose State University,CA,86,Y,Y,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,190594,190594,CUNY Hunter College,NY,87,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110592,110592,California State University-Los Angeles,CA,88,Y,Y,1.0,1.0,1%,1%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,166683,166683,Massachusetts Institute of Technology,MA,89,Y,Y,44.0,25.0,44%,25%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190567,CUNY City College,NY,90,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,139658,139658,Emory University,GA,91,Y,Y,20.0,20.0,20%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,126818,126818,Colorado State University-Fort Collins,CO,92,Y,Y,4.0,5.0,4%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,227216,University of North Texas,TX,93,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,179867,179867,Washington University in St Louis,MO,94,Y,Y,11.0,9.0,11%,9%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,144740,144740,DePaul University,IL,95,Y,Y,4.0,5.0,4%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,160755,160755,Tulane University of Louisiana,LA,96,Y,Y,26.0,54.0,26%,54%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,227757,227757,Rice University,TX,97,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,232557,Liberty University,VA,98,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,196088,196088,University at Buffalo,NY,99,Y,Y,1.0,2.0,1%,2%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,232423,232423,James Madison University,VA,100,Y,Y,4.0,5.0,4%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,204024,204024,Miami University-Oxford,OH,101,Y,Y,20.0,30.0,20%,30%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,231174,231174,University of Vermont,VT,102,Y,Y,2.0,3.0,2%,3%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,122597,San Francisco State University,CA,103,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,445188,445188,University of California-Merced,CA,104,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,225511,225511,University of Houston,TX,105,Y,Y,3.0,3.0,3%,3%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,104717,Grand Canyon University,AZ,106,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,201885,201885,University of Cincinnati-Main Campus,OH,107,Y,Y,10.0,8.0,10%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,228459,Texas State University,TX,108,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190549,CUNY Brooklyn College,NY,109,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,180461,180461,Montana State University,MT,110,Y,Y,6.0,5.0,6%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,182670,182670,Dartmouth College,NH,111,Y,Y,35.0,36.0,35%,36%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,131469,131469,George Washington University,DC,112,Y,Y,9.0,12.0,9%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,131496,131496,Georgetown University,DC,113,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,194310,Pace University,NY,114,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,152080,152080,University of Notre Dame,IN,115,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,106397,106397,University of Arkansas,AR,116,Y,Y,26.0,39.0,26%,39%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,139940,139940,Georgia State University,GA,117,Y,Y,4.0,4.0,4%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,196060,SUNY at Albany,NY,118,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,110608,California State University-Northridge,CA,119,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,147703,Northern Illinois University,IL,120,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,199102,North Carolina A & T State University,NC,121,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,186584,Seton Hall University,NJ,122,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,153658,153658,University of Iowa,IA,123,Y,Y,13.0,17.0,13%,17%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,190512,190512,CUNY Bernard M Baruch College,NY,124,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,209542,209542,Oregon State University,OR,125,Y,Y,10.0,16.0,10%,16%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,217484,217484,University of Rhode Island,RI,126,Y,Y,10.0,15.0,10%,15%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,110617,California State University-Sacramento,CA,127,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,204857,204857,Ohio University-Main Campus,OH,128,Y,Y,10.0,7.0,10%,7%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,195809,St. John's University-New York,NY,129,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,133669,133669,Florida Atlantic University,FL,130,Y,Y,5.0,5.0,5%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,195003,195003,Rochester Institute of Technology,NY,131,Y,Y,3.0,2.0,3%,2%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,216597,216597,Villanova University,PA,132,Y,Y,25.0,49.0,25%,49%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,191649,191649,Hofstra University,NY,133,Y,Y,5.0,8.0,5%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,145600,145600,University of Illinois Chicago,IL,134,Y,Y,4.0,4.0,4%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,229027,The University of Texas at San Antonio,TX,135,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,122612,122612,University of San Francisco,CA,136,Y,Y,5.0,9.0,5%,9%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,150136,Ball State University,IN,137,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190637,CUNY Lehman College,NY,138,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190664,CUNY Queens College,NY,139,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,176017,176017,University of Mississippi,MS,140,Y,Y,40.0,57.0,40%,57%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,197869,197869,Appalachian State University,NC,141,Y,Y,10.0,10.0,10%,10%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,157085,157085,University of Kentucky,KY,142,Y,Y,23.0,31.0,23%,31%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,217819,217819,College of Charleston,SC,143,Y,Y,19.0,17.0,19%,17%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,228769,The University of Texas at Arlington,TX,144,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,153603,153603,Iowa State University,IA,145,Y,Y,14.0,14.0,14%,14%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,117946,117946,Loyola Marymount University,CA,146,Y,Y,16.0,26.0,16%,26%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,207500,207500,University of Oklahoma-Norman Campus,OK,147,Y,Y,28.0,32.0,28%,32%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,228787,228787,The University of Texas at Dallas,TX,148,Y,Y,3.0,5.0,3%,5%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,110538,California State University-Chico,CA,149,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,185590,Montclair State University,NJ,150,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,198464,198464,East Carolina University,NC,151,Y,Y,9.0,12.0,9%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,199139,199139,University of North Carolina at Charlotte,NC,152,Y,Y,7.0,8.0,7%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190655,CUNY New York City College of Technology,NY,153,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,190099,190099,Colgate University,NY,154,Y,Y,21.0,33.0,21%,33%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,486840,Kennesaw State University,GA,155,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,230764,University of Utah,UT,156,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,183044,183044,University of New Hampshire-Main Campus,NH,157,Y,Y,14.0,14.0,14%,14%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,484844,Minerva University,CA,158,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,172699,Western Michigan University,MI,159,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,203517,Kent State University at Kent,OH,160,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,178396,178396,University of Missouri-Columbia,MO,161,Y,Y,23.0,29.0,23%,29%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,199962,Wingate University,NC,162,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,232186,232186,George Mason University,VA,163,Y,Y,3.0,4.0,3%,4%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,195030,195030,University of Rochester,NY,164,Y,Y,13.0,12.0,13%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,169798,Eastern Michigan University,MI,165,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,169248,Central Michigan University,MI,166,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,136172,University of North Florida,FL,167,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,145813,Illinois State University,IL,168,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,166638,166638,University of Massachusetts-Boston,MA,169,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,131159,131159,American University,DC,170,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,236939,236939,Washington State University,WA,171,Y,Y,21.0,23.0,21%,23%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,127060,127060,University of Denver,CO,172,Y,Y,16.0,20.0,16%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,131520,131520,Howard University,DC,173,Y,Y,8.0,6.0,8%,6%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,110547,California State University-Dominguez Hills,CA,174,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,207388,Oklahoma State University-Main Campus,OK,175,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,181464,181464,University of Nebraska-Lincoln,NE,176,Y,Y,25.0,33.0,25%,33%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,141574,University of Hawaii at Manoa,HI,177,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,202480,University of Dayton,OH,178,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,176080,176080,Mississippi State University,MS,179,Y,Y,20.0,26.0,20%,26%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,190600,CUNY John Jay College of Criminal Justice,NY,180,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,130226,130226,Quinnipiac University,CT,181,Y,Y,12.0,20.0,12%,20%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,230603,Southern Utah University,UT,182,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,110556,110556,California State University-Fresno,CA,183,Y,Y,2.0,2.0,2%,2%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,151324,Indiana State University,IN,184,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,234030,234030,Virginia Commonwealth University,VA,185,Y,Y,5.0,3.0,5%,3%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,238032,238032,West Virginia University,WV,186,Y,Y,7.0,6.0,7%,6%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,231624,231624,William & Mary,VA,187,Y,Y,20.0,22.0,20%,22%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,200004,Western Carolina University,NC,188,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,164076,164076,Towson University,MD,189,Y,Y,7.0,6.0,7%,6%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,198516,198516,Elon University,NC,190,Y,Y,20.0,39.0,20%,39%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,201441,Bowling Green State University-Main Campus,OH,191,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,133951,133951,Florida International University,FL,192,Y,Y,,,Not Reported,Not Reported
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,188429,Adelphi University,NY,193,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,218724,Coastal Carolina University,SC,194,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,,,170082,Grand Valley State University,MI,195,,,,,,
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,184782,184782,Rowan University,NJ,196,Y,Y,8.0,8.0,8%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,161086,161086,Colby College,ME,197,N,N,0.0,0.0,0%,0%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,194824,194824,Rensselaer Polytechnic Institute,NY,198,Y,Y,16.0,12.0,16%,12%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,199218,199218,University of North Carolina Wilmington,NC,199,Y,Y,11.0,8.0,11%,8%
+2024-12-31,2024,Greek Life 2023-24,wayback,20240528072318,unitid,199847,199847,Wake Forest University,NC,200,Y,Y,36.0,64.0,36%,64%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110662,110662,University of California-Los Angeles,CA,1,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,110680,110680,University of California-San Diego,CA,2,Y,Y,14.0,14.0,14%,14%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110635,110635,University of California-Berkeley,CA,3,Y,Y,3.0,5.0,3%,5%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110653,110653,University of California-Irvine,CA,4,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,110705,110705,University of California-Santa Barbara,CA,5,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,193900,193900,New York University,NY,6,Y,Y,2.0,5.0,2%,5%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110644,110644,University of California-Davis,CA,7,Y,Y,5.0,6.0,5%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,167358,167358,Northeastern University,MA,8,Y,Y,5.0,9.0,5%,9%
+2026-03-03,2026,Greek Life 2025,live,,unitid,214777,214777,Pennsylvania State University-Main Campus,PA,9,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,170976,170976,University of Michigan-Ann Arbor,MI,10,Y,Y,10.0,16.0,10%,16%
+2026-03-03,2026,Greek Life 2025,live,,unitid,164988,164988,Boston University,MA,11,Y,Y,,11.0,Not Reported,11%
+2026-03-03,2026,Greek Life 2025,live,,unitid,134097,134097,Florida State University,FL,12,Y,Y,18.0,25.0,18%,25%
+2026-03-03,2026,Greek Life 2025,live,,unitid,122409,122409,San Diego State University,CA,13,Y,Y,11.0,12.0,11%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110583,110583,California State University-Long Beach,CA,14,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,190415,190415,Cornell University,NY,15,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,123961,123961,University of Southern California,CA,16,Y,Y,2.0,12.0,2%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,104151,104151,Arizona State University Campus Immersion,AZ,17,Y,Y,8.0,11.0,8%,11%
+2026-03-03,2026,Greek Life 2025,live,,unitid,243780,243780,Purdue University-Main Campus,IN,18,Y,Y,13.0,17.0,13%,17%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110714,110714,University of California-Santa Cruz,CA,19,Y,Y,5.0,6.0,5%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,137351,137351,University of South Florida,FL,20,Y,Y,2.0,4.0,2%,4%
+2026-03-03,2026,Greek Life 2025,live,,unitid,204796,204796,Ohio State University-Main Campus,OH,21,Y,Y,8.0,12.0,8%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,134130,134130,University of Florida,FL,22,Y,Y,18.0,25.0,18%,25%
+2026-03-03,2026,Greek Life 2025,live,,unitid,145637,145637,University of Illinois Urbana-Champaign,IL,23,Y,Y,14.0,19.0,14%,19%
+2026-03-03,2026,Greek Life 2025,live,,unitid,166027,166027,Harvard University,MA,24,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,190150,190150,Columbia University in the City of New York,NY,25,Y,Y,9.0,13.0,9%,13%
+2026-03-03,2026,Greek Life 2025,live,,unitid,240444,240444,University of Wisconsin-Madison,WI,26,Y,Y,9.0,8.0,9%,8%
+2026-03-03,2026,Greek Life 2025,live,,unitid,228778,228778,The University of Texas at Austin,TX,27,Y,Y,14.0,17.0,14%,17%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110422,110422,California Polytechnic State University-San Luis Obispo,CA,28,Y,Y,3.0,6.0,3%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,163286,163286,University of Maryland-College Park,MD,29,Y,Y,9.0,12.0,9%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,243744,243744,Stanford University,CA,30,Y,Y,21.0,25.0,21%,25%
+2026-03-03,2026,Greek Life 2025,live,,unitid,199120,199120,University of North Carolina at Chapel Hill,NC,31,Y,Y,7.0,12.0,7%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,132903,132903,University of Central Florida,FL,32,Y,Y,4.0,6.0,4%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110671,110671,University of California-Riverside,CA,33,Y,Y,3.0,4.0,3%,4%
+2026-03-03,2026,Greek Life 2025,live,,unitid,215062,215062,University of Pennsylvania,PA,34,Y,Y,19.0,17.0,19%,17%
+2026-03-03,2026,Greek Life 2025,live,,unitid,100751,100751,The University of Alabama,AL,35,Y,Y,31.0,45.0,31%,45%
+2026-03-03,2026,Greek Life 2025,live,,unitid,126614,126614,University of Colorado Boulder,CO,36,Y,Y,8.0,19.0,8%,19%
+2026-03-03,2026,Greek Life 2025,live,,unitid,171100,171100,Michigan State University,MI,37,Y,Y,12.0,13.0,12%,13%
+2026-03-03,2026,Greek Life 2025,live,,unitid,215293,215293,University of Pittsburgh-Pittsburgh Campus,PA,38,Y,Y,9.0,12.0,9%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,217882,217882,Clemson University,SC,39,Y,Y,19.0,38.0,19%,38%
+2026-03-03,2026,Greek Life 2025,live,,unitid,236948,236948,University of Washington-Seattle Campus,WA,40,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,104179,104179,University of Arizona,AZ,41,Y,Y,12.0,20.0,12%,20%
+2026-03-03,2026,Greek Life 2025,live,,unitid,147767,147767,Northwestern University,IL,42,Y,Y,14.0,18.0,14%,18%
+2026-03-03,2026,Greek Life 2025,live,,unitid,234076,234076,University of Virginia-Main Campus,VA,43,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,217156,217156,Brown University,RI,44,Y,Y,4.0,2.0,4%,2%
+2026-03-03,2026,Greek Life 2025,live,,unitid,139755,139755,Georgia Institute of Technology-Main Campus,GA,45,Y,Y,20.0,24.0,20%,24%
+2026-03-03,2026,Greek Life 2025,live,,unitid,151351,151351,Indiana University-Bloomington,IN,46,Y,Y,22.0,20.0,22%,20%
+2026-03-03,2026,Greek Life 2025,live,,unitid,130794,130794,Yale University,CT,47,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,198419,198419,Duke University,NC,48,Y,Y,30.0,42.0,30%,42%
+2026-03-03,2026,Greek Life 2025,live,,unitid,135726,135726,University of Miami,FL,49,Y,Y,21.0,22.0,21%,22%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110529,110529,California State Polytechnic University-Pomona,CA,50,Y,Y,2.0,1.0,2%,1%
+2026-03-03,2026,Greek Life 2025,live,,unitid,110565,110565,California State University-Fullerton,CA,51,Y,Y,0.2,2.0,0.2%,2%
+2026-03-03,2026,Greek Life 2025,live,,unitid,191241,191241,Fordham University,NY,52,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,221999,221999,Vanderbilt University,TN,53,Y,Y,24.0,28.0,24%,28%
+2026-03-03,2026,Greek Life 2025,live,,unitid,100858,100858,Auburn University,AL,54,Y,Y,27.0,47.0,27%,47%
+2026-03-03,2026,Greek Life 2025,live,,unitid,166629,166629,University of Massachusetts-Amherst,MA,55,Y,Y,7.0,7.0,7%,7%
+2026-03-03,2026,Greek Life 2025,live,,unitid,233921,233921,Virginia Polytechnic Institute and State University,VA,56,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,,,105330,Northern Arizona University,AZ,57,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,228723,228723,Texas A & M University-College Station,TX,58,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,218663,218663,University of South Carolina-Columbia,SC,59,Y,Y,30.0,36.0,30%,36%
+2026-03-03,2026,Greek Life 2025,live,,unitid,186380,186380,Rutgers University-New Brunswick,NJ,60,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,196079,196079,Binghamton University,NY,61,Y,Y,16.0,16.0,16%,16%
+2026-03-03,2026,Greek Life 2025,live,,unitid,196413,196413,Syracuse University,NY,62,Y,Y,25.0,41.0,25%,41%
+2026-03-03,2026,Greek Life 2025,live,,unitid,146719,146719,Loyola University Chicago,IL,63,Y,Y,5.0,8.0,5%,8%
+2026-03-03,2026,Greek Life 2025,live,,unitid,129020,129020,University of Connecticut,CT,64,Y,Y,11.0,13.0,11%,13%
+2026-03-03,2026,Greek Life 2025,live,,unitid,223232,223232,Baylor University,TX,65,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,196097,196097,Stony Brook University,NY,66,Y,Y,2.0,3.0,2%,3%
+2026-03-03,2026,Greek Life 2025,live,,unitid,164924,164924,Boston College,MA,67,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,137847,137847,The University of Tampa,FL,68,Y,Y,19.0,30.0,19%,30%
+2026-03-03,2026,Greek Life 2025,live,,unitid,139959,139959,University of Georgia,GA,69,Y,Y,23.0,34.0,23%,34%
+2026-03-03,2026,Greek Life 2025,live,,unitid,159391,159391,Louisiana State University and Agricultural & Mechanical College,LA,70,Y,Y,17.0,24.0,17%,24%
+2026-03-03,2026,Greek Life 2025,live,,unitid,201645,201645,Case Western Reserve University,OH,71,Y,Y,16.0,14.0,16%,14%
+2026-03-03,2026,Greek Life 2025,live,,unitid,216339,216339,Temple University,PA,72,Y,Y,4.0,5.0,4%,5%
+2026-03-03,2026,Greek Life 2025,live,,unitid,174066,174066,University of Minnesota-Twin Cities,MN,73,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,186131,186131,Princeton University,NJ,74,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,162928,162928,Johns Hopkins University,MD,75,Y,Y,22.0,13.0,22%,13%
+2026-03-03,2026,Greek Life 2025,live,,unitid,144050,144050,University of Chicago,IL,76,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,209551,209551,University of Oregon,OR,77,Y,Y,18.0,16.0,18%,16%
+2026-03-03,2026,Greek Life 2025,live,,unitid,212054,212054,Drexel University,PA,78,Y,Y,11.0,8.0,11%,8%
+2026-03-03,2026,Greek Life 2025,live,,unitid,221759,221759,The University of Tennessee-Knoxville,TN,79,Y,Y,20.0,37.0,20%,37%
+2026-03-03,2026,Greek Life 2025,live,,,,183026,Southern New Hampshire University,NH,80,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,199193,199193,North Carolina State University at Raleigh,NC,81,Y,Y,15.0,18.0,15%,18%
+2026-03-03,2026,Greek Life 2025,live,,unitid,229115,229115,Texas Tech University,TX,82,Y,Y,12.0,16.0,12%,16%
+2026-03-03,2026,Greek Life 2025,live,,unitid,130943,130943,University of Delaware,DE,83,Y,Y,20.0,25.0,20%,25%
+2026-03-03,2026,Greek Life 2025,live,,unitid,168148,168148,Tufts University,MA,84,Y,Y,12.0,12.0,12%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,211440,211440,Carnegie Mellon University,PA,85,Y,Y,7.0,7.0,7%,7%
+2026-03-03,2026,Greek Life 2025,live,,unitid,122755,122755,San Jose State University,CA,86,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,190594,190594,CUNY Hunter College,NY,87,Y,Y,,,1%*,1%*
+2026-03-03,2026,Greek Life 2025,live,,unitid,110592,110592,California State University-Los Angeles,CA,88,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,166683,166683,Massachusetts Institute of Technology,MA,89,Y,Y,41.0,25.0,41%,25%
+2026-03-03,2026,Greek Life 2025,live,,,,190567,CUNY City College,NY,90,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,139658,139658,Emory University,GA,91,Y,Y,23.0,21.0,23%,21%
+2026-03-03,2026,Greek Life 2025,live,,unitid,126818,126818,Colorado State University-Fort Collins,CO,92,Y,Y,5.0,6.0,5%,6%
+2026-03-03,2026,Greek Life 2025,live,,,,227216,University of North Texas,TX,93,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,179867,179867,Washington University in St Louis,MO,94,Y,Y,17.0,17.0,17%,17%
+2026-03-03,2026,Greek Life 2025,live,,unitid,144740,144740,DePaul University,IL,95,Y,Y,3.0,6.0,3%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,160755,160755,Tulane University of Louisiana,LA,96,Y,Y,32.0,53.0,32%,53%
+2026-03-03,2026,Greek Life 2025,live,,unitid,227757,227757,Rice University,TX,97,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,,,232557,Liberty University,VA,98,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,196088,196088,University at Buffalo,NY,99,Y,Y,1.0,2.0,1%,2%
+2026-03-03,2026,Greek Life 2025,live,,unitid,232423,232423,James Madison University,VA,100,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,204024,204024,Miami University-Oxford,OH,101,Y,Y,23.0,31.0,23%,31%
+2026-03-03,2026,Greek Life 2025,live,,unitid,231174,231174,University of Vermont,VT,102,Y,Y,5.0,6.0,5%,6%
+2026-03-03,2026,Greek Life 2025,live,,,,122597,San Francisco State University,CA,103,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,445188,445188,University of California-Merced,CA,104,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,225511,225511,University of Houston,TX,105,Y,Y,3.0,3.0,3%,3%
+2026-03-03,2026,Greek Life 2025,live,,,,104717,Grand Canyon University,AZ,106,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,201885,201885,University of Cincinnati-Main Campus,OH,107,Y,Y,9.0,7.0,9%,7%
+2026-03-03,2026,Greek Life 2025,live,,,,228459,Texas State University,TX,108,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,190549,CUNY Brooklyn College,NY,109,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,180461,180461,Montana State University,MT,110,Y,Y,7.0,8.0,7%,8%
+2026-03-03,2026,Greek Life 2025,live,,unitid,182670,182670,Dartmouth College,NH,111,Y,Y,33.0,33.0,33%,33%
+2026-03-03,2026,Greek Life 2025,live,,unitid,131469,131469,George Washington University,DC,112,Y,Y,7.0,12.0,7%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,131496,131496,Georgetown University,DC,113,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,,,194310,Pace University,NY,114,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,152080,152080,University of Notre Dame,IN,115,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,106397,106397,University of Arkansas,AR,116,Y,Y,23.0,41.0,23%,41%
+2026-03-03,2026,Greek Life 2025,live,,unitid,139940,139940,Georgia State University,GA,117,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,,,196060,SUNY at Albany,NY,118,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,110608,California State University-Northridge,CA,119,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,147703,Northern Illinois University,IL,120,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,199102,North Carolina A & T State University,NC,121,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,186584,Seton Hall University,NJ,122,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,153658,153658,University of Iowa,IA,123,Y,Y,15.0,17.0,15%,17%
+2026-03-03,2026,Greek Life 2025,live,,unitid,190512,190512,CUNY Bernard M Baruch College,NY,124,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,209542,209542,Oregon State University,OR,125,Y,Y,14.0,15.0,14%,15%
+2026-03-03,2026,Greek Life 2025,live,,unitid,217484,217484,University of Rhode Island,RI,126,Y,Y,24.0,28.0,24%,28%
+2026-03-03,2026,Greek Life 2025,live,,,,110617,California State University-Sacramento,CA,127,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,204857,204857,Ohio University-Main Campus,OH,128,Y,Y,6.0,4.0,6%,4%
+2026-03-03,2026,Greek Life 2025,live,,,,195809,St. John's University-New York,NY,129,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,133669,133669,Florida Atlantic University,FL,130,Y,Y,8.0,10.0,8%,10%
+2026-03-03,2026,Greek Life 2025,live,,unitid,195003,195003,Rochester Institute of Technology,NY,131,Y,Y,3.0,2.0,3%,2%
+2026-03-03,2026,Greek Life 2025,live,,unitid,216597,216597,Villanova University,PA,132,Y,Y,9.0,20.0,9%,20%
+2026-03-03,2026,Greek Life 2025,live,,unitid,191649,191649,Hofstra University,NY,133,Y,Y,5.0,9.0,5%,9%
+2026-03-03,2026,Greek Life 2025,live,,unitid,145600,145600,University of Illinois Chicago,IL,134,Y,Y,4.0,4.0,4%,4%
+2026-03-03,2026,Greek Life 2025,live,,,,229027,The University of Texas at San Antonio,TX,135,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,122612,122612,University of San Francisco,CA,136,Y,Y,5.0,9.0,5%,9%
+2026-03-03,2026,Greek Life 2025,live,,,,150136,Ball State University,IN,137,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,190637,CUNY Lehman College,NY,138,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,190664,CUNY Queens College,NY,139,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,176017,176017,University of Mississippi,MS,140,Y,Y,37.0,54.0,37%,54%
+2026-03-03,2026,Greek Life 2025,live,,unitid,197869,197869,Appalachian State University,NC,141,Y,Y,9.0,10.0,9%,10%
+2026-03-03,2026,Greek Life 2025,live,,unitid,157085,157085,University of Kentucky,KY,142,Y,Y,19.0,29.0,19%,29%
+2026-03-03,2026,Greek Life 2025,live,,unitid,217819,217819,College of Charleston,SC,143,Y,Y,21.0,24.0,21%,24%
+2026-03-03,2026,Greek Life 2025,live,,,,228769,The University of Texas at Arlington,TX,144,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,153603,153603,Iowa State University,IA,145,Y,Y,14.0,14.0,14%,14%
+2026-03-03,2026,Greek Life 2025,live,,unitid,117946,117946,Loyola Marymount University,CA,146,Y,Y,17.0,25.0,17%,25%
+2026-03-03,2026,Greek Life 2025,live,,unitid,207500,207500,University of Oklahoma-Norman Campus,OK,147,Y,Y,27.0,32.0,27%,32%
+2026-03-03,2026,Greek Life 2025,live,,unitid,228787,228787,The University of Texas at Dallas,TX,148,Y,Y,3.0,4.0,3%,4%
+2026-03-03,2026,Greek Life 2025,live,,,,110538,California State University-Chico,CA,149,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,185590,Montclair State University,NJ,150,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,198464,198464,East Carolina University,NC,151,Y,Y,12.0,13.0,12%,13%
+2026-03-03,2026,Greek Life 2025,live,,unitid,199139,199139,University of North Carolina at Charlotte,NC,152,Y,Y,7.0,8.0,7%,8%
+2026-03-03,2026,Greek Life 2025,live,,,,190655,CUNY New York City College of Technology,NY,153,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,190099,190099,Colgate University,NY,154,Y,Y,30.0,38.0,30%,38%
+2026-03-03,2026,Greek Life 2025,live,,,,486840,Kennesaw State University,GA,155,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,230764,230764,University of Utah,UT,156,Y,Y,8.0,11.0,8%,11%
+2026-03-03,2026,Greek Life 2025,live,,unitid,183044,183044,University of New Hampshire-Main Campus,NH,157,Y,Y,15.0,10.0,15%,10%
+2026-03-03,2026,Greek Life 2025,live,,,,484844,Minerva University,CA,158,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,172699,Western Michigan University,MI,159,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,203517,Kent State University at Kent,OH,160,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,178396,178396,University of Missouri-Columbia,MO,161,Y,Y,25.0,30.0,25%,30%
+2026-03-03,2026,Greek Life 2025,live,,,,199962,Wingate University,NC,162,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,232186,232186,George Mason University,VA,163,Y,Y,3.0,4.0,3%,4%
+2026-03-03,2026,Greek Life 2025,live,,unitid,195030,195030,University of Rochester,NY,164,Y,Y,8.0,10.0,8%,10%
+2026-03-03,2026,Greek Life 2025,live,,,,169798,Eastern Michigan University,MI,165,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,169248,Central Michigan University,MI,166,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,136172,University of North Florida,FL,167,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,145813,Illinois State University,IL,168,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,166638,166638,University of Massachusetts-Boston,MA,169,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,131159,131159,American University,DC,170,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,unitid,236939,236939,Washington State University,WA,171,Y,Y,18.0,18.0,18%,18%
+2026-03-03,2026,Greek Life 2025,live,,unitid,127060,127060,University of Denver,CO,172,Y,Y,23.0,20.0,23%,20%
+2026-03-03,2026,Greek Life 2025,live,,unitid,131520,131520,Howard University,DC,173,Y,Y,1.0,1.0,1%,1%
+2026-03-03,2026,Greek Life 2025,live,,,,110547,California State University-Dominguez Hills,CA,174,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,207388,Oklahoma State University-Main Campus,OK,175,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,181464,181464,University of Nebraska-Lincoln,NE,176,Y,Y,29.0,33.0,29%,33%
+2026-03-03,2026,Greek Life 2025,live,,,,141574,University of Hawaii at Manoa,HI,177,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,202480,University of Dayton,OH,178,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,176080,176080,Mississippi State University,MS,179,Y,Y,21.0,28.0,21%,28%
+2026-03-03,2026,Greek Life 2025,live,,,,190600,CUNY John Jay College of Criminal Justice,NY,180,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,130226,130226,Quinnipiac University,CT,181,Y,Y,17.0,19.0,17%,19%
+2026-03-03,2026,Greek Life 2025,live,,,,230603,Southern Utah University,UT,182,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,110556,110556,California State University-Fresno,CA,183,Y,Y,5.0,3.0,5%,3%
+2026-03-03,2026,Greek Life 2025,live,,,,151324,Indiana State University,IN,184,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,234030,234030,Virginia Commonwealth University,VA,185,Y,Y,2.0,3.0,2%,3%
+2026-03-03,2026,Greek Life 2025,live,,unitid,238032,238032,West Virginia University,WV,186,Y,Y,,,7%*,6%*
+2026-03-03,2026,Greek Life 2025,live,,unitid,231624,231624,William & Mary,VA,187,Y,Y,24.0,26.0,24%,26%
+2026-03-03,2026,Greek Life 2025,live,,,,200004,Western Carolina University,NC,188,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,164076,164076,Towson University,MD,189,Y,Y,5.0,5.0,5%,5%
+2026-03-03,2026,Greek Life 2025,live,,unitid,198516,198516,Elon University,NC,190,Y,Y,20.0,39.0,20%,39%
+2026-03-03,2026,Greek Life 2025,live,,,,201441,Bowling Green State University-Main Campus,OH,191,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,133951,133951,Florida International University,FL,192,Y,Y,,,Not Reported,Not Reported
+2026-03-03,2026,Greek Life 2025,live,,,,188429,Adelphi University,NY,193,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,218724,Coastal Carolina University,SC,194,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,,,170082,Grand Valley State University,MI,195,,,,,,
+2026-03-03,2026,Greek Life 2025,live,,unitid,184782,184782,Rowan University,NJ,196,Y,Y,5.0,6.0,5%,6%
+2026-03-03,2026,Greek Life 2025,live,,unitid,161086,161086,Colby College,ME,197,N,N,,,-,-
+2026-03-03,2026,Greek Life 2025,live,,unitid,194824,194824,Rensselaer Polytechnic Institute,NY,198,Y,Y,18.0,11.0,18%,11%
+2026-03-03,2026,Greek Life 2025,live,,unitid,199218,199218,University of North Carolina Wilmington,NC,199,Y,Y,7.0,12.0,7%,12%
+2026-03-03,2026,Greek Life 2025,live,,unitid,199847,199847,Wake Forest University,NC,200,Y,Y,28.0,65.0,28%,65%
