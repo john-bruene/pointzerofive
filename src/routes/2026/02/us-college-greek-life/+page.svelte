@@ -49,6 +49,9 @@
 	const megaLowCount = $derived(storyData.summary.mega_low_greek_schools.length);
 	const heavyCount = $derived(storyData.summary.greek_heavy_schools.length);
 	const noGreekCount = $derived(storyData.summary.no_greek_schools.length);
+	const megaLowExamples = $derived(storyData.summary.mega_low_greek_schools.slice(0, 5).join(', '));
+	const greekHeavyExamples = $derived(storyData.summary.greek_heavy_schools.slice(0, 5).join(', '));
+	const noGreekExamples = $derived(storyData.summary.no_greek_schools.slice(0, 5).join(', '));
 
 	const steps = $derived([
 		{
@@ -147,16 +150,59 @@
 </section>
 
 <section class="story-body container prose">
-	<h2>What this does and does not show</h2>
+	<h2>How to read this chart</h2>
 	<p>
-		This is an institutional snapshot, not a causal claim. Applicant volume, admissions selectivity,
-		and social organization are driven by different forces: geography, housing, mission, campus rules,
-		and long-running traditions.
+		Each dot is one institution. The x-axis is applicant volume and the y-axis is combined fraternity +
+		sorority participation. The guide lines mark the sample median for applicants and the sample average
+		for Greek participation, so each quadrant has a plain-language meaning: large-and-low, large-and-high,
+		small-and-low, small-and-high.
 	</p>
 	<p>
-		Still, the split is editorially useful. Mega-applicant campuses in this sample mostly occupy the
-		low-Greek quadrant, while several smaller schools remain strongly Greek-affiliated. The question
-		for future reporting is how campus policy and student life evolve as applications keep scaling up.
+		The plot is deliberately descriptive. It tells us where institutional models cluster, not why they
+		cluster there. A public flagship with 90k applicants and a private campus with 11k applicants can be
+		serving very different local housing markets, student demographics, and social calendars.
+	</p>
+
+	<h3>What stands out in this sample</h3>
+	<p>
+		{megaCount} institutions pass the mega-applicant threshold. Of those, {megaLowCount} are at or below
+		15% Greek participation. In other words: scale does not automatically erase Greek life, but it very
+		often coincides with low Greek penetration. Representative large-and-low names in this file include
+		{megaLowExamples}.
+	</p>
+	<p>
+		At the same time, {heavyCount} institutions remain above the Greek-heavy threshold. These schools show
+		that social organization can stay intensely chapter-based even without giant applicant pools. In this
+		dataset, examples include {greekHeavyExamples}.
+	</p>
+	<p>
+		Finally, {noGreekCount} institutions report effectively no Greek participation. That group includes
+		{noGreekExamples}. Those campuses matter because they keep the right side of the chart honest: the
+		bottom edge is not a statistical accident; it is a real institutional model.
+	</p>
+
+	<h3>Interpretation, not verdict</h3>
+	<p>
+		The overall relationship is negative (r = {storyData.summary.correlation_applicants_greek}), but this
+		is still not a causal estimate. Applicant growth and campus social structure are both outcomes of many
+		other factors: admissions policy, housing supply, commuter share, athletics culture, and local norms.
+	</p>
+	<p>
+		What the chart does provide is a clear editorial baseline: when applications scale quickly, Greek-life
+		participation often does not scale in parallel. That tension is a useful reporting lead, especially for
+		stories about student belonging, social access, and campus governance.
+	</p>
+
+	<h3>Where to report next</h3>
+	<p>
+		A stronger next step is time-series tracking by campus instead of a single cut. The right question is
+		not just “who is high vs low,” but “who is moving and in which direction” after policy changes,
+		housing expansions, or shifts in admissions strategy.
+	</p>
+	<p>
+		Another useful extension is disaggregation: chapter membership by class year, on-campus residency, and
+		first-generation status. Those splits would show whether declining Greek share reflects institutional
+		choice, changing student preferences, or simple denominator growth from larger applicant pools.
 	</p>
 	<p class="source-note">
 		Data source: {storyData.meta.source} - Last updated: {storyData.meta.updated}<br />
@@ -265,6 +311,12 @@
 	.story-body h2 {
 		font-size: var(--size-xl);
 		margin-bottom: 1.25rem;
+	}
+
+	.story-body h3 {
+		font-size: 1.45rem;
+		margin-top: 2rem;
+		margin-bottom: 0.85rem;
 	}
 
 	.source-note {

@@ -170,6 +170,17 @@
 	const coverageCheckByDate = $derived(
 		Object.fromEntries(story.checks.coverageChecks.map((point) => [point.snapshotDate, point]))
 	);
+	const top50ShareShiftPoints = $derived(
+		(story.highlights.top50ShareTo - story.highlights.top50ShareFrom) * 100
+	);
+	const admitRateShiftPoints = $derived(
+		(story.highlights.admitRateTo - story.highlights.admitRateFrom) * 100
+	);
+	const latestGreekCoveragePct = $derived(
+		story.highlights.latestGreekTotal > 0
+			? (story.highlights.latestGreekUsable / story.highlights.latestGreekTotal) * 100
+			: 0
+	);
 
 	function onStepEnter(index: number) {
 		activeStep = index;
@@ -279,7 +290,48 @@
 </section>
 
 <section class="story-body container prose">
-	<h2>What we checked before plotting</h2>
+	<h2>What changed in the admissions market</h2>
+	<p>
+		In this fixed panel, applications grew {story.highlights.totalGrowthMultiple.toFixed(2)}x between
+		{story.scope.availableAdmissionsStartYear} and {story.scope.availableAdmissionsEndYear}. Growth was
+		not evenly shared: top-50 magnets expanded faster than the rest, and their application share increased
+		by {formatPct(top50ShareShiftPoints)} points.
+	</p>
+	<p>
+		Selectivity tightened over the same span. The weighted admit rate moved from
+		{formatPct(story.highlights.admitRateFrom * 100)} to {formatPct(story.highlights.admitRateTo * 100)},
+		a net shift of {formatPct(admitRateShiftPoints)} points. The 2020 jump is real in the data, but it
+		does not reverse the longer trend.
+	</p>
+
+	<h3>Why this panel is strict</h3>
+	<p>
+		We keep only institutions with complete admissions reporting across the full source-backed range. That
+		choice removes a common distortion: late-entering schools can create false growth when you aggregate
+		raw yearly totals. Here, the panel is intentionally conservative so year-to-year comparisons are like
+		for-like.
+	</p>
+	<p>
+		Even with that strict filter, the balanced panel still captures
+		{formatPct(story.checks.balancedPanelShareInLatestYear * 100)} of all applicants in the latest year.
+		So we trade breadth for comparability, but we do not lose the core market signal.
+	</p>
+
+	<h3>What the Greek overlay adds</h3>
+	<p>
+		Greek participation is not a federal annual time series in the same shape as admissions, so we treat it
+		as snapshot evidence. In the latest cut, {story.highlights.latestGreekUsable}/
+		{story.highlights.latestGreekTotal} institutions ({formatPct(latestGreekCoveragePct)}) have usable
+		values. That is enough for structural comparison, but not enough to pretend we have a complete annual
+		panel.
+	</p>
+	<p>
+		The rank strip helps separate two claims that are often mixed together: “application scale is
+		concentrating” and “campus social organization is converging.” The first is clearly true in this panel.
+		The second is not. High- and low-Greek models exist across the rank distribution.
+	</p>
+
+	<h3>What we checked before plotting</h3>
 	<p>
 		This is a structural read, not a claim about causality. Applicant demand, admissions policy, housing,
 		and student life are driven by different factors. To keep the chart honest, we run explicit shape and

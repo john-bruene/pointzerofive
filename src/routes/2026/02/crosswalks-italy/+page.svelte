@@ -16,7 +16,30 @@
 	import CityDotPlot from '$lib/components/CityDotPlot.svelte';
 	import type { PageData } from './$types';
 
+	interface CityRow {
+		name: string;
+		region: string;
+		score: number;
+	}
+
 	const { data }: { data: PageData } = $props();
+	const cities = $derived(data.storyData.cities as CityRow[]);
+	const safestCity = $derived(cities[0]);
+	const leastSafeCity = $derived(cities[cities.length - 1]);
+	const topThreeCities = $derived(
+		cities.slice(0, 3).map((city) => `${city.name} (${city.score})`).join(', ')
+	);
+	const bottomThreeCities = $derived(
+		[...cities]
+			.slice(-3)
+			.map((city) => `${city.name} (${city.score})`)
+			.join(', ')
+	);
+	const safetySpread = $derived(
+		safestCity && leastSafeCity && leastSafeCity.score > 0
+			? safestCity.score / leastSafeCity.score
+			: 0
+	);
 
 	// Active step drives what the graphic shows
 	let activeStep = $state(0);
@@ -26,9 +49,9 @@
 		{
 			id: 0,
 			label: 'The question',
-			headline: 'Italy has 107 provincial capitals.',
+			headline: `This sample covers ${data.storyData.summary.cities_analyzed} provincial capitals.`,
 			caption:
-				'Each one is responsible for its own street infrastructure — including the humble pedestrian crossing. How evenly distributed are they?'
+				'Each city manages its own street infrastructure. Even in this compact sample, crosswalk provision varies sharply from one urban system to another.'
 		},
 		{
 			id: 1,
@@ -41,7 +64,7 @@
 			id: 2,
 			label: 'The north–south gap',
 			headline: 'The north dominates.',
-			caption: `${data.storyData.cities[0].name} leads with a score of ${data.storyData.cities[0].score} — nearly eight times more crossings per capita than ${data.storyData.summary.least_safe_city} in Calabria.`
+			caption: `${data.storyData.cities[0].name} leads with a score of ${data.storyData.cities[0].score} — about ${safetySpread.toFixed(1)} times higher than ${data.storyData.summary.least_safe_city} in this sample.`
 		},
 		{
 			id: 3,
@@ -103,19 +126,19 @@
 				/>
 
 				<!-- Progress dots -->
-				<div class="graphic-dots" aria-hidden="true">
-					{#each steps as _, i}
-						<span class="progress-dot" class:active={activeStep === i}></span>
-					{/each}
+					<div class="graphic-dots" aria-hidden="true">
+						{#each steps as step, i (step.id)}
+							<span class="progress-dot" class:active={activeStep === i}></span>
+						{/each}
+					</div>
 				</div>
-			</div>
-		{/snippet}
+			{/snippet}
 
-		<!-- 5 scroll steps -->
-		{#each steps as step}
-			<ScrollyStep index={step.id} active={activeStep === step.id} onEnter={onStepEnter}>
-				<p class="step-label">{step.label}</p>
-				<h2 class="step-headline">{step.headline}</h2>
+			<!-- 5 scroll steps -->
+			{#each steps as step (step.id)}
+				<ScrollyStep index={step.id} active={activeStep === step.id} onEnter={onStepEnter}>
+					<p class="step-label">{step.label}</p>
+					<h2 class="step-headline">{step.headline}</h2>
 				<p class="step-caption">{step.caption}</p>
 			</ScrollyStep>
 		{/each}
@@ -126,14 +149,46 @@
 <section class="story-body container prose">
 	<h2>What the data shows</h2>
 	<p>
-		The gap between Italy's best and worst-served cities is stark. Bolzano, with its strong
-		tradition of urban planning inherited from Central European influences, offers nearly
-		eight times as many crossings per capita as Crotone in Calabria.
+		This is a per-capita infrastructure comparison, not a raw count leaderboard. A city with fewer total
+		crossings can still rank high if it serves a smaller population well; a large metro can rank low even
+		with thousands of crossings if provision does not keep pace with residents.
 	</p>
 	<p>
-		This isn't just about north versus south. Roma and Napoli — Italy's two largest cities —
-		both fall below the national average, suggesting that size and historical density
-		create their own infrastructure challenges.
+		In this sample, the spread is wide: {safestCity?.name} ({safestCity?.score}) to
+		{leastSafeCity?.name} ({leastSafeCity?.score}), a ratio of roughly {safetySpread.toFixed(1)} to 1.
+		That is large enough to change daily pedestrian experience, not just move a ranking table.
+	</p>
+
+	<h3>A compact sample, still a clear signal</h3>
+	<p>
+		The top three cities here are {topThreeCities}. The bottom three are {bottomThreeCities}. The overlap
+		in geography and city size is limited, but the overall pattern is consistent with a long-standing
+		planning divide: places with sustained street-level investment score better on basic walkability
+		infrastructure.
+	</p>
+	<p>
+		At the same time, this is not a “north always good, south always bad” claim. Individual municipal
+		choices matter. Some cities outperform their regional neighbors; others underperform despite stronger
+		economic context.
+	</p>
+
+	<h3>Why large cities can underperform</h3>
+	<p>
+		Roma and Napoli both sit below this sample's average. Big-city networks are harder to retrofit, and
+		older street grids often prioritize vehicular throughput over pedestrian continuity. The policy lesson
+		is practical: crosswalk density is less about city prestige and more about repeated, local execution.
+	</p>
+
+	<h3>Limits and next reporting step</h3>
+	<p>
+		This story is transparent by design: the current file covers {data.storyData.summary.cities_analyzed}
+		cities, not all provincial capitals. It is a strong prototype for method and storytelling, but not yet
+		a full national census.
+	</p>
+	<p>
+		Next step is straightforward: scale the same pipeline to a broader city set and add neighborhood-level
+		pedestrian injury context. That would let us test whether crossing density tracks safety outcomes, not
+		just infrastructure presence.
 	</p>
 	<p class="source-note">
 		Data source: {data.storyData.meta.source} · Last updated: {data.storyData.meta.updated}
@@ -247,6 +302,12 @@
 	.story-body h2 {
 		font-size: var(--size-xl);
 		margin-bottom: 1.25rem;
+	}
+
+	.story-body h3 {
+		font-size: 1.45rem;
+		margin-top: 2rem;
+		margin-bottom: 0.85rem;
 	}
 
 	.source-note {
