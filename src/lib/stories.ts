@@ -21,22 +21,12 @@ export interface Story {
 
 export const stories: Story[] = [
 	{
-		number: '003',
-		title: 'The Applicant Surge Era',
-		dek: 'A fixed 2001-2022 admissions panel shows the surge clearly, with transparent checks and Greek-life snapshots to map what applicant scale does and does not explain.',
-		slug: '/2026/03/applicant-surge-greek-snapshots',
-		date: '2026-03-03',
-		dateLabel: 'Mar 2026',
-		category: 'Education data',
-		color: '#6b4c2f' // earthy bronze
-	},
-	{
 		number: '002',
-		title: 'Admissions Arms Race, Greek Life Divide',
-		dek: 'US campuses draw ever-larger applicant pools, but Greek participation often shrinks at the same time. A look at where the pattern holds and breaks.',
-		slug: '/2026/02/us-college-greek-life',
-		date: '2026-02-27',
-		dateLabel: 'Feb 2026',
+		title: 'How Popular Is Greek Life?',
+		dek: 'At the biggest US universities, fraternity and sorority participation often shrinks as applicant pools grow. We map the correlation, trace it across 20 years, and find who breaks the rule.',
+		slug: '/2026/02/greek-life-in-america',
+		date: '2026-03-06',
+		dateLabel: 'Mar 2026',
 		category: 'Education data',
 		color: '#304a66' // steel blue
 	},
