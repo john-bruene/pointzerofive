@@ -110,6 +110,14 @@ interface LatestSchoolPoint {
 	top50: boolean;
 }
 
+interface StateMetricPoint {
+	stateAbbr: string;
+	schoolsInTop200: number;
+	applicants2022: number;
+	latestGreekUsableSchools: number;
+	latestGreekAverage: number | null;
+}
+
 interface StoryPayload {
 	meta: {
 		updated: string;
@@ -130,6 +138,7 @@ interface StoryPayload {
 		yearly: YearPoint[];
 		greekSnapshots: GreekPoint[];
 		latestSchools: LatestSchoolPoint[];
+		stateMetrics: StateMetricPoint[];
 	};
 	highlights: {
 		totalGrowthMultiple: number;
@@ -364,6 +373,63 @@ function buildLatestSchoolView(
 	return schools;
 }
 
+function buildStateMetrics(
+	top200: TopSchool[],
+	latestSchools: LatestSchoolPoint[]
+): StateMetricPoint[] {
+	const baseByState = new Map<
+		string,
+		{
+			schoolsInTop200: number;
+			applicants2022: number;
+		}
+	>();
+
+	for (const school of top200) {
+		const current = baseByState.get(school.state_abbr) ?? {
+			schoolsInTop200: 0,
+			applicants2022: 0
+		};
+		current.schoolsInTop200 += 1;
+		current.applicants2022 += school.applicants_2022;
+		baseByState.set(school.state_abbr, current);
+	}
+
+	const greekByState = new Map<
+		string,
+		{
+			usable: number;
+			sumGreek: number;
+		}
+	>();
+
+	for (const school of latestSchools) {
+		const current = greekByState.get(school.stateAbbr) ?? { usable: 0, sumGreek: 0 };
+		current.usable += 1;
+		current.sumGreek += school.greekTotal;
+		greekByState.set(school.stateAbbr, current);
+	}
+
+	return [...baseByState.entries()]
+		.map(([stateAbbr, base]) => {
+			const greek = greekByState.get(stateAbbr);
+			return {
+				stateAbbr,
+				schoolsInTop200: base.schoolsInTop200,
+				applicants2022: base.applicants2022,
+				latestGreekUsableSchools: greek?.usable ?? 0,
+				latestGreekAverage:
+					greek && greek.usable > 0 ? greek.sumGreek / greek.usable : null
+			} satisfies StateMetricPoint;
+		})
+		.sort((a, b) => {
+			if (b.schoolsInTop200 !== a.schoolsInTop200) {
+				return b.schoolsInTop200 - a.schoolsInTop200;
+			}
+			return b.applicants2022 - a.applicants2022;
+		});
+}
+
 function buildStoryPayload(storyData: RawStoryData): StoryPayload {
 	const { yearly } = buildYearlySeries(storyData);
 	const { greekSnapshots, coverageChecks } = buildGreekSeries(storyData);
@@ -372,6 +438,7 @@ function buildStoryPayload(storyData: RawStoryData): StoryPayload {
 	const lastYear = yearly[yearly.length - 1];
 	const latestGreek = greekSnapshots[greekSnapshots.length - 1];
 	const latestSchools = buildLatestSchoolView(storyData, latestGreek?.snapshotDate);
+	const stateMetrics = buildStateMetrics(storyData.top200, latestSchools);
 
 	const admissionsRowsExpected =
 		(storyData.meta.requested_admissions_end_year - storyData.meta.requested_admissions_start_year + 1) *
@@ -396,7 +463,8 @@ function buildStoryPayload(storyData: RawStoryData): StoryPayload {
 		series: {
 			yearly,
 			greekSnapshots,
-			latestSchools
+			latestSchools,
+			stateMetrics
 		},
 		highlights: {
 			totalGrowthMultiple:

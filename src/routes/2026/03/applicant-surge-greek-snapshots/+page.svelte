@@ -1,6 +1,7 @@
 <script lang="ts">
 	import AdmissionsGreekTimeline from '$lib/components/AdmissionsGreekTimeline.svelte';
 	import GreekRankStrip from '$lib/components/GreekRankStrip.svelte';
+	import USStateChoropleth from '$lib/components/USStateChoropleth.svelte';
 	import Scrolly from '$lib/scrolly/Scrolly.svelte';
 	import ScrollyStep from '$lib/scrolly/ScrollyStep.svelte';
 	import type { PageData } from './$types';
@@ -47,6 +48,14 @@
 		top50: boolean;
 	}
 
+	interface StateMetricPoint {
+		stateAbbr: string;
+		schoolsInTop200: number;
+		applicants2022: number;
+		latestGreekUsableSchools: number;
+		latestGreekAverage: number | null;
+	}
+
 	interface CoverageCheckPoint {
 		snapshotDate: string;
 		reportedMatches: number;
@@ -74,6 +83,7 @@
 			yearly: YearPoint[];
 			greekSnapshots: GreekPoint[];
 			latestSchools: LatestSchoolPoint[];
+			stateMetrics: StateMetricPoint[];
 		};
 		highlights: {
 			totalGrowthMultiple: number;
@@ -108,6 +118,7 @@
 	const yearly = $derived(story.series.yearly);
 	const greekSnapshots = $derived(story.series.greekSnapshots);
 	const latestSchools = $derived(story.series.latestSchools);
+	const stateMetrics = $derived(story.series.stateMetrics);
 
 	const firstYear = $derived(yearly[0]);
 	const lastYear = $derived(yearly[yearly.length - 1]);
@@ -287,6 +298,18 @@
 		Latest snapshot date: {formatSnapshotDate(story.scope.latestGreekSnapshotDate)}. Red band marks ranks
 		1-50. Dashed lines mark Top-50 and 51-200 means.
 	</p>
+</section>
+
+<section class="state-map-section container">
+	<div class="state-map-head">
+		<h2>State map: where the volume sits</h2>
+		<p>
+			This view splits the top-200 panel by US state. Switch metrics to compare institutional count,
+			applicant weight, and latest Greek snapshot averages.
+		</p>
+	</div>
+
+	<USStateChoropleth {stateMetrics} />
 </section>
 
 <section class="story-body container prose">
@@ -484,6 +507,30 @@
 		border-bottom: 1px solid var(--color-border);
 		background:
 			linear-gradient(180deg, rgba(245, 241, 233, 0.85), rgba(250, 249, 247, 0.98));
+	}
+
+	.state-map-section {
+		padding-top: var(--space-md);
+		padding-bottom: var(--space-lg);
+		border-bottom: 1px solid var(--color-border);
+		background:
+			linear-gradient(180deg, rgba(250, 247, 242, 1), rgba(250, 249, 247, 0.98));
+	}
+
+	.state-map-head {
+		max-width: 70ch;
+		margin-bottom: 1rem;
+	}
+
+	.state-map-head h2 {
+		font-size: var(--size-xl);
+		margin-bottom: 0.7rem;
+	}
+
+	.state-map-head p {
+		font-size: var(--size-base);
+		color: var(--color-muted);
+		line-height: var(--leading-loose);
 	}
 
 	.rank-section-head {

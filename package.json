@@ -20,7 +20,9 @@
 		"@sveltejs/adapter-vercel": "^5.0.0",
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@types/d3-geo": "^3.1.0",
 		"@types/node": "^25.3.2",
+		"@types/topojson-client": "^3.1.5",
 		"eslint": "^10.0.2",
 		"eslint-plugin-svelte": "^3.15.0",
 		"mdsvex": "^0.12.6",
@@ -31,5 +33,10 @@
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.56.1",
 		"vite": "^7.3.1"
+	},
+	"dependencies": {
+		"d3-geo": "^3.1.1",
+		"topojson-client": "^3.1.0",
+		"us-atlas": "^3.0.1"
 	}
 }
