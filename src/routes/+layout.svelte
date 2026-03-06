@@ -22,8 +22,12 @@
 <header class="site-header">
 	<div class="container header-inner">
 
-		<!-- Left spacer (keeps wordmark centred) -->
-		<div aria-hidden="true"></div>
+		<!-- Left: animated cube -->
+		<div class="header-left">
+			<a href="/" class="cube-link" aria-label="pointzerofive home">
+				<img src="/cube.gif" alt="" class="cube-gif" aria-hidden="true" />
+			</a>
+		</div>
 
 		<!-- Centre: wordmark -->
 		<a href="/" class="site-wordmark">
@@ -113,6 +117,30 @@
 		transition: color 0.2s ease;
 	}
 
+	/* ── Cube (left) ── */
+	.header-left {
+		justify-self: start;
+	}
+
+	.cube-link {
+		display: inline-block;
+		line-height: 0;
+		opacity: 0.82;
+		transition: opacity 0.2s ease, transform 0.2s ease;
+	}
+
+	.cube-link:hover {
+		opacity: 1;
+		transform: scale(1.08);
+	}
+
+	.cube-gif {
+		width: 32px;
+		height: 32px;
+		display: block;
+		image-rendering: pixelated;
+	}
+
 	/* ── Nav (right) ── */
 	.site-nav {
 		justify-self: end;
@@ -179,10 +207,11 @@
 
 	/* ── Mobile ── */
 	@media (max-width: 680px) {
-		.header-inner { grid-template-columns: auto 1fr; }
+		.header-inner { grid-template-columns: auto auto 1fr; }
 		.site-nav { gap: 1.25rem; }
 		.nav-link { font-size: 0.65rem; }
-		.site-wordmark { font-size: 1.1rem; grid-column: 1; justify-self: start; }
+		.site-wordmark { font-size: 1.1rem; grid-column: 2; justify-self: start; }
+		.cube-gif { width: 26px; height: 26px; }
 		.footer-inner { flex-direction: column; gap: 0.5rem; }
 	}
 </style>
