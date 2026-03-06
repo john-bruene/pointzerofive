@@ -181,8 +181,8 @@
 	class="timeline-viz"
 >
 	{#if !showGreek}
-		<text x={marginLeft} y={14} class="axis-title">
-			Applications and admit rate, top-200 US universities
+		<text x={marginLeft} y={16} class="axis-title">
+			{#if activeStep <= 1}Applications doubled — then tripled.{:else if activeStep === 2}Top-50 led the surge.{:else if activeStep === 3}Admit rates collapsed.{:else}Greek life tells a separate story.{/if}
 		</text>
 
 		<g transform={`translate(${marginLeft}, ${marginTop})`}>
@@ -280,8 +280,8 @@
 			</g>
 		{/if}
 	{:else}
-		<text x={marginLeft} y={14} class="axis-title">
-			Greek participation snapshots (fraternity + sorority %)
+		<text x={marginLeft} y={16} class="axis-title">
+			Greek participation — snapshots over time
 		</text>
 
 		<g transform={`translate(${marginLeft}, ${marginTop})`}>
@@ -305,6 +305,7 @@
 					height={innerH - topY}
 					class="bar top50"
 					class:latest={isLatest}
+					style="--bar-i:{i}"
 				/>
 				<rect
 					x={restX}
@@ -313,8 +314,9 @@
 					height={innerH - restY}
 					class="bar rest"
 					class:latest={isLatest}
+					style="--bar-i:{i}"
 				/>
-				<circle cx={centerX} cy={avgY} r="3.4" class="avg-dot" />
+				<circle cx={centerX} cy={avgY} r="4" class="avg-dot" style="--bar-i:{i}" />
 			{/each}
 		</g>
 
@@ -361,6 +363,7 @@
 </svg>
 
 <style>
+	/* ── Container ── */
 	.timeline-viz {
 		width: 100%;
 		height: 100%;
@@ -369,38 +372,43 @@
 		font-family: var(--font-ui);
 	}
 
+	/* ── Axes ── */
 	.axis-line,
 	.grid-line {
 		stroke: #ddd8d0;
 		stroke-width: 1;
 	}
-
-	.grid-line {
-		opacity: 0.72;
-	}
+	.grid-line { opacity: 0.6; }
 
 	.axis-title {
-		font-size: 10px;
-		fill: var(--color-muted);
-		text-transform: uppercase;
-		letter-spacing: 0.06em;
+		font-size: 11px;
+		fill: var(--color-text);
+		font-style: italic;
+		letter-spacing: 0.01em;
 	}
-
 	.axis-note {
 		font-size: 10px;
 		fill: var(--color-muted);
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
 	}
-
 	.tick-label {
 		font-size: 10px;
 		fill: var(--color-muted);
 	}
-
 	.tiny-label {
 		font-size: 9px;
 		fill: var(--color-muted);
+	}
+
+	/* ── Line draw-on animation (solid lines) ── */
+	@keyframes drawLine {
+		from { stroke-dashoffset: 2200; }
+		to   { stroke-dashoffset: 0; }
+	}
+	@keyframes linefade {
+		from { opacity: 0; }
+		to   { opacity: 1; }
 	}
 
 	.line-all,
@@ -409,100 +417,95 @@
 	.line-rest,
 	.line-admit {
 		fill: none;
-		stroke-width: 2.2;
+		stroke-width: 2.4;
 	}
 
+	/* Dashed lines → fade in (stroke-dasharray already used for dash pattern) */
 	.line-all {
-		stroke: #a6aaa8;
+		stroke: #b0b4b2;
 		stroke-dasharray: 4 3;
-		opacity: 0.9;
+		animation: linefade 0.9s ease both;
+		animation-delay: 0.1s;
 	}
 
+	/* Solid lines → draw-on from left */
 	.line-balanced {
 		stroke: #2b5d86;
+		stroke-dasharray: 2200;
+		animation: drawLine 1.5s ease-out both;
+		animation-delay: 0.25s;
 	}
-
 	.line-top50 {
 		stroke: var(--color-accent);
+		stroke-dasharray: 2200;
+		animation: drawLine 1.2s ease-out both;
+		animation-delay: 0.1s;
 	}
-
 	.line-rest {
 		stroke: #556570;
+		stroke-dasharray: 2200;
+		animation: drawLine 1.2s ease-out both;
+		animation-delay: 0.25s;
 	}
-
 	.line-admit {
 		stroke: #7f5632;
 		stroke-dasharray: 6 4;
+		animation: linefade 0.7s ease both;
+		animation-delay: 0.3s;
 	}
 
+	/* ── Dots ── */
+	@keyframes dotPop {
+		from { r: 0; opacity: 0; }
+		to   { opacity: 1; }
+	}
 	.end-dot {
 		fill: #2b5d86;
+		animation: dotPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+		animation-delay: 1.5s;
 	}
+	.admit-dot { fill: #7f5632; }
 
-	.admit-dot {
-		fill: #7f5632;
+	/* ── Annotation labels ── */
+	@keyframes annoIn {
+		from { opacity: 0; transform: translateY(4px); }
+		to   { opacity: 1; transform: translateY(0); }
 	}
-
 	.anno-label {
 		font-size: 10px;
 		fill: #5f5f5b;
+		animation: annoIn 0.4s ease both;
 	}
+	.anno-label.strong { fill: var(--color-text); font-weight: 600; }
 
-	.anno-label.strong {
-		fill: var(--color-text);
+	/* ── Bar grow-up animation ── */
+	@keyframes barGrow {
+		from { transform: scaleY(0); }
+		to   { transform: scaleY(1); }
 	}
-
 	.bar {
-		opacity: 0.9;
+		transform-box: fill-box;
+		transform-origin: bottom;
+		animation: barGrow 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+		animation-delay: calc(var(--bar-i, 0) * 80ms + 100ms);
 	}
-
-	.bar.top50 {
-		fill: var(--color-accent);
-	}
-
-	.bar.rest {
-		fill: #3f5f7e;
-	}
-
-	.bar.latest {
-		stroke: #2f2f2a;
-		stroke-width: 1;
-	}
+	.bar.top50   { fill: var(--color-accent); opacity: 0.92; }
+	.bar.rest    { fill: #3f5f7e; opacity: 0.88; }
+	.bar.latest  { stroke: #2f2f2a; stroke-width: 1; }
 
 	.avg-dot {
-		fill: #1f1f1c;
+		fill: var(--color-text);
+		animation: dotPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+		animation-delay: calc(var(--bar-i, 0) * 80ms + 400ms);
 	}
 
-	.legend {
-		font-size: 10px;
-		letter-spacing: 0.04em;
-	}
-
-	.legend.all {
-		fill: #9da3a0;
-	}
-
-	.legend.balanced {
-		fill: #2b5d86;
-	}
-
-	.legend.top50 {
-		fill: var(--color-accent);
-	}
-
-	.legend.rest {
-		fill: #3f5f7e;
-	}
-
-	.legend.admit {
-		fill: #7f5632;
-	}
-
-	.legend.avg {
-		fill: #1f1f1c;
-	}
-
-	.legend.tiny {
-		fill: var(--color-muted);
-	}
+	/* ── Legend ── */
+	.legend { font-size: 10px; letter-spacing: 0.04em; }
+	.legend.all      { fill: #9da3a0; }
+	.legend.balanced { fill: #2b5d86; }
+	.legend.top50    { fill: var(--color-accent); }
+	.legend.rest     { fill: #3f5f7e; }
+	.legend.admit    { fill: #7f5632; }
+	.legend.avg      { fill: var(--color-text); }
+	.legend.tiny     { fill: var(--color-muted); }
 </style>
