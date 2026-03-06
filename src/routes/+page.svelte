@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { stories } from '$lib/stories';
+	import StoryThumb from '$lib/components/thumbs/StoryThumb.svelte';
 </script>
 
 <svelte:head>
@@ -16,6 +17,9 @@
 			<article class="card" style="--i:{i}">
 				<a href={story.slug} class="card-link">
 					<div class="card-preview" style:background={story.color}>
+						<div class="card-thumb">
+							<StoryThumb number={story.number} />
+						</div>
 						<span class="card-category">{story.category}</span>
 					</div>
 					<div class="card-body">
@@ -94,6 +98,17 @@
 		aspect-ratio: 4 / 3;
 		overflow: hidden;
 		transition: filter 300ms ease;
+	}
+
+	/* Thumbnail sits below the dot-grid and vignette overlays */
+	.card-thumb {
+		position: absolute;
+		inset: 0;
+		z-index: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.5rem;
 	}
 
 	.card-preview::before {

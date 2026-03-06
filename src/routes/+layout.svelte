@@ -2,8 +2,6 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
-
 	let { children } = $props();
 
 	const nav = [
@@ -15,25 +13,6 @@
 	const isStoryPage = $derived(
 		$page.url.pathname.match(/^\/\d{4}\/\d{2}\//) !== null
 	);
-
-	// Cycling motto: Latin ↔ English
-	const phrases = [
-		{ text: 'Pauca sed matura.', lang: 'la' },
-		{ text: 'Few but ripe.',     lang: 'en' }
-	];
-	let idx     = $state(0);
-	let visible = $state(true);
-
-	onMount(() => {
-		const timer = setInterval(() => {
-			visible = false;
-			setTimeout(() => {
-				idx = (idx + 1) % phrases.length;
-				visible = true;
-			}, 350);
-		}, 4200);
-		return () => clearInterval(timer);
-	});
 </script>
 
 <svelte:head>
@@ -43,15 +22,8 @@
 <header class="site-header">
 	<div class="container header-inner">
 
-		<!-- Left: cycling motto -->
-		<p
-			class="site-motto"
-			class:visible
-			lang={phrases[idx].lang}
-			aria-live="polite"
-		>
-			{phrases[idx].text}
-		</p>
+		<!-- Left spacer (keeps wordmark centred) -->
+		<div aria-hidden="true"></div>
 
 		<!-- Centre: wordmark -->
 		<a href="/" class="site-wordmark">
@@ -100,28 +72,6 @@
 		grid-template-columns: 1fr auto 1fr;
 		align-items: center;
 		gap: 1rem;
-	}
-
-	/* ── Cycling motto (left) ── */
-	.site-motto {
-		font-family: var(--font-display);
-		font-style: italic;
-		font-size: 0.85rem;
-		color: var(--shell-muted);
-		letter-spacing: 0.01em;
-		white-space: nowrap;
-		/* fade + slide state */
-		opacity: 0;
-		transform: translateY(5px);
-		transition:
-			opacity 0.35s ease,
-			transform 0.35s ease;
-		user-select: none;
-	}
-
-	.site-motto.visible {
-		opacity: 1;
-		transform: translateY(0);
 	}
 
 	/* ── Wordmark (centre) ── */
@@ -229,8 +179,6 @@
 
 	/* ── Mobile ── */
 	@media (max-width: 680px) {
-		/* hide motto on very small screens — logo + nav fills the bar */
-		.site-motto { display: none; }
 		.header-inner { grid-template-columns: auto 1fr; }
 		.site-nav { gap: 1.25rem; }
 		.nav-link { font-size: 0.65rem; }
