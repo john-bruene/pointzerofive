@@ -135,10 +135,9 @@
 	}
 
 	.cube-gif {
-		width: 32px;
-		height: 32px;
+		width: 48px;
+		height: 48px;
 		display: block;
-		image-rendering: pixelated;
 	}
 
 	/* ── Nav (right) ── */
@@ -211,7 +210,7 @@
 		.site-nav { gap: 1.25rem; }
 		.nav-link { font-size: 0.65rem; }
 		.site-wordmark { font-size: 1.1rem; grid-column: 2; justify-self: start; }
-		.cube-gif { width: 26px; height: 26px; }
+		.cube-gif { width: 36px; height: 36px; }
 		.footer-inner { flex-direction: column; gap: 0.5rem; }
 	}
 </style>
